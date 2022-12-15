@@ -1,0 +1,372 @@
+.plans-main {
+  background: #fcfcfc 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.support-tetx {
+  width: 100%;
+  height: 226px;
+  background: #f5f7ff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.service-p {
+  text-align: center;
+  font: normal normal 600 26px/61px Nunito Sans;
+  letter-spacing: 0px;
+  color: #152d79;
+}
+.head-p {
+  text-align: center;
+  font: normal normal 800 46px/35px Nunito Sans;
+  letter-spacing: 0px;
+  color: #152d79;
+  display: contents;
+}
+.im86 {
+  width: 494px;
+  height: 13px;
+  opacity: 1;
+  display: flex;
+  margin-top: 14px;
+  margin-left: 33px;
+}
+.price-text {
+  display: flex;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.head-h1 {
+  text-align: center;
+  font: normal normal 800 43px/126px Nunito Sans;
+  letter-spacing: 0px;
+  color: #152d79;
+  opacity: 1;
+}
+
+.doll2 {
+  height: 42px;
+  margin-top: 56px;
+  font: normal normal 800 29px/58px Nunito Sans;
+  color: #152d79;
+  flex-direction: row;
+  display: flex;
+  align-items: end;
+  font: normal normal 800 30px/93px Nunito Sans;
+  letter-spacing: 0px;
+  color: #152d79;
+  opacity: 1;
+}
+.talk1 {
+  margin-left: 21px;
+  display: flex;
+  justify-content: center;
+  margin-top: 13px;
+  margin-top: 29px;
+}
+.l11 {
+  width: 252px;
+  margin-left: 4%;
+  font: normal normal bold 20px/22px Nunito Sans;
+  letter-spacing: 0px;
+  color: #152d79;
+  text-transform: capitalize;
+  opacity: 1;
+}
+.tick2 {
+  width: 24px;
+  height: 22px;
+  opacity: 1;
+}
+.pc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parice-card2 {
+  width: 321px;
+  min-height: 370px;
+  display: flex;
+  margin-right: 14px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background: #f5f7ff 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  border: 5px solid #405ebf;
+}
+.parice-card3 {
+  width: 321px;
+  min-height: 370px;
+  display: flex;
+  margin-right: 14px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background: #f5f7ff 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  border: 5px solid #ee8b3f;
+}
+
+.btnbasic3 {
+  background: #405ebf 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  width: 119px;
+  height: 43px;
+  border: none;
+  font-size: 24px;
+  color: #ffffff;
+  font: normal normal 800 15px/35px Nunito Sans;
+  position: absolute;
+  top: -2px;
+  left: 98px;
+}
+
+.btnbasic4 {
+  background: #ee8b3f 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  width: 196px;
+  height: 43px;
+  border: none;
+  font-size: 24px;
+  color: #ffffff;
+  font: normal normal 800 15px/36px Nunito Sans;
+  position: absolute;
+  left: 60px;
+  top: -2px;
+}
+.whatsinclude {
+  font: normal normal bold 23px/51px Nunito Sans;
+  letter-spacing: 0px;
+  color: #152d79;
+  margin-right: 64px;
+  opacity: 1;
+  margin-top: 11px;
+}
+
+.showtext {
+  width: 637px;
+  text-align: center;
+  font: normal normal 600 20px/30px Nunito Sans;
+  letter-spacing: 0px;
+  color: #152d79;
+  opacity: 1;
+  display: flex;
+  text-align: center;
+}
+.pa1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.network-part {
+  height: 499px;
+  background: #546cb6 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-top: 30px;
+}
+.network-heading {
+  display: flex;
+  justify-content: center;
+}
+
+.nth {
+  width: 448px;
+  position: relative;
+  text-align: center;
+  font: normal normal bold 32px/38px Nunito Sans;
+  letter-spacing: 0px;
+  margin-top: 45px;
+  color: #ffffff;
+  display: flex;
+}
+
+.iicon-img {
+  width: 53px;
+  height: 38px;
+  opacity: 1;
+}
+
+.hed {
+  text-align: left;
+  font: normal normal bold 15px/21px Nunito Sans;
+  letter-spacing: 0px;
+  color: #fcfcfc;
+  width: 143px;
+  margin-top: 7px;
+  height: 58px;
+  text-transform: capitalize;
+  opacity: 1;
+}
+.per {
+  width: 190px;
+  text-align: left;
+  font: normal normal 600 15px/22px Nunito Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.iicon-head {
+  margin-right: 15px;
+  border-right: 1px solid #74bfd8;
+  opacity: 1;
+}
+.main-iccon {
+  display: flex;
+  justify-content: center;
+  margin-top: 87px;
+}
+
+@media only screen and (max-width: 480px) {
+  .buttonplan {
+    font-family: "Nunito Sans";
+    width: 190px !important;
+    height: 47px !important;
+    margin-top: 27px !important;
+    margin-bottom: 24px;
+    background: 0% 0% no-repeat padding-box padding-box rgb(21, 45, 121);
+    box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
+    border-radius: 34px !important;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+  }
+  .nd-text1,.nd-text2,.nd-text3,.nd-text4,.nd-text5,.nd-text6{
+    display: none;
+  }
+  
+  .btnbasic3 {
+    background: #405ebf 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    width: 119px;
+    height: 43px;
+    border: none;
+    font-size: 24px;
+    color: #ffffff;
+    font: normal normal 800 15px/35px Nunito Sans;
+    position: absolute;
+    top: -2px;
+    left: 84px !important;
+  }
+  .parice-card3 {
+    width: 295px;
+    min-height: 337px;
+    display: flex;
+    margin-right: 14px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: #f5f7ff 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    border: 5px solid #ee8b3f;
+  }
+  .btnbasic4 {
+    background: #ee8b3f 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    width: 196px;
+    height: 43px;
+    border: none;
+    font-size: 24px;
+    color: #ffffff;
+    font: normal normal 800 15px/36px Nunito Sans;
+    position: absolute;
+    left: 53px;
+    top: -2px;
+  }
+  .whatsinclude {
+    font: normal normal bold 20px/32px Nunito Sans;
+    letter-spacing: 0px;
+    color: #152d79;
+    margin-right: 68px;
+    opacity: 1;
+    margin-top: 9px;
+  }
+  .showtext {
+    text-align: center;
+    font: normal normal 600 14px/26px Nunito Sans;
+    color: #152d79;
+    padding: 26px;
+    display: flex;
+    text-align: center;
+  }
+  .nth {
+    width: 448px;
+    position: relative;
+    text-align: center;
+    font: normal normal bold 21px/28px Nunito Sans;
+    margin-top: 39px;
+    color: #ffffff;
+    padding: 7px;
+    display: flex;
+}
+.im86 {
+   display: none;
+}
+
+.img866 {
+  display: none;
+}
+.network-part {
+  height: 896px;
+  background: #546cb6 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-top: 30px;
+}
+.main-iccon {
+  display: flex;
+  justify-content: center;
+  margin-top: 87px;
+  flex-direction: column;
+}
+.hed {
+  font: normal normal bold 15px/21px Nunito Sans;
+  letter-spacing: 0px;
+  color: #fcfcfc;
+  display: flex;
+  opacity: 1;
+  justify-content: center;
+}
+.iicon-head {
+  margin-right: 15px;
+  opacity: 1;
+  display: flex;
+  border: none;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.hed {
+  font: normal normal bold 9px/27px Nunito Sans;
+  letter-spacing: 0px;
+  color: #fcfcfc;
+  display: flex;
+  opacity: 1;
+  justify-content: center;
+  margin-bottom: -36px;
+}
+
+
+.per {
+    width: 190px;
+    text-align: left;
+    font: normal normal 600 8px/22px Nunito Sans;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+}

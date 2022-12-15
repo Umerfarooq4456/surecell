@@ -1,0 +1,319 @@
+.section3 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 522px;
+  background-color: #f5f7ff;
+  flex-direction: column;
+}
+.section4 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: #f5f7ff;
+  flex-direction: column;
+}
+.h1 {
+  text-align: center;
+  font: normal normal 800 45px/75px Nunito Sans;
+  letter-spacing: 0px;
+  color: #152d79;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-top: 7%;
+}
+.para {
+  text-align: center;
+  font: normal normal bold 24px/35px Nunito Sans;
+  letter-spacing: 0px;
+  color: #405ebf;
+  text-transform: lowercase;
+  opacity: 1;
+}
+.numbering {
+  display: flex;
+  padding: 8px 277px 3px;
+  align-items: center;
+  margin: 30px 19px 28px;
+  margin-left: 94px;
+  justify-content: space-around;
+  margin-bottom: 4%;
+}
+.btn1 {
+  display: flex;
+  justify-content: center;
+}
+.h2 {
+  text-align: center;
+  font: normal normal bold 45px/55px Nunito Sans;
+  letter-spacing: 0px;
+  color: #152d79;
+  opacity: 1;
+  margin-top: 7%;
+}
+
+.num1,
+.num2,
+.num3 {
+  text-align: center;
+  font: normal normal bold 72px/80px Nunito Sans;
+  letter-spacing: 0px;
+  color: #405ebf;
+  opacity: 1;
+}
+.hh1,
+.hh2,
+.hh3 {
+  text-align: left;
+  font: normal normal bold 24px/32px Nunito Sans;
+  letter-spacing: 0px;
+  color: #18317b;
+  opacity: 1;
+  text-align: center;
+}
+
+.pp11,
+.pp22,
+.pp33 {
+  font: normal normal 600 16px/20px Nunito Sans;
+  letter-spacing: 0px;
+  color: #152d79;
+  opacity: 1;
+  margin-top: 16px;
+  width: fit-content;
+}
+
+.cardn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  margin-bottom: 6%;
+}
+.citem1,
+.citem2 {
+  height: 434px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #cdd8f3;
+  border-radius: 10px;
+  opacity: 1;
+  text-align: center;
+  padding: 14px;
+  margin: 30px 18px;
+  width: 376px;
+}
+
+.ch1 {
+  font: normal normal bold 26px/97px Nunito Sans;
+  letter-spacing: 0px;
+  color: #18317b;
+  text-align: center;
+  text-transform: capitalize;
+  opacity: 1;
+}
+.cp1 {
+  width: 340px;
+  height: 127px;
+  text-align: center;
+  font: normal normal 600 20px/25px Nunito Sans;
+  letter-spacing: 0px;
+  color: #152d79;
+  text-transform: lowercase;
+  opacity: 1;
+}
+
+.paragrap {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  /* justify-content: center; */
+  height: 796px;
+  color: #802828;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head11 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font: normal normal bold 37px/55px Nunito Sans;
+  letter-spacing: 0px;
+  color: #152d79;
+  opacity: 1;
+  margin-top: 2%;
+}
+
+.par1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font: normal normal 600 20px/30px Nunito Sans;
+  letter-spacing: 0px;
+  color: #152d79;
+}
+
+.ppp1 {
+  width: 1127px;
+  text-align: center;
+  font: normal normal 600 26px/39px Nunito Sans;
+  letter-spacing: 0px;
+  color: #152d79;
+  margin-top: 7%;
+}
+.tag {
+  text-align: center;
+  font: normal normal bold 26px/19px Nunito Sans;
+  letter-spacing: 0px;
+  color: #152d79;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 3%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .h1 {
+    text-align: center;
+    font: normal normal 800 38px/69px Nunito Sans;
+    letter-spacing: 0px;
+    color: #152d79;
+    text-transform: capitalize;
+    opacity: 1;
+    margin-top: 7%;
+  }
+  .para {
+    text-align: center;
+    font: normal normal bold 18px/32px Nunito Sans;
+    letter-spacing: 0px;
+    color: #405ebf;
+    text-transform: lowercase;
+    opacity: 1;
+  }
+  .num1,
+  .num2,
+  .num3 {
+    text-align: center;
+    font: normal normal bold 53px/83px Nunito Sans;
+    letter-spacing: 0px;
+    color: #405ebf;
+    opacity: 1;
+  }
+
+  .hh1,
+  .hh2,
+  .hh3 {
+    text-align: left;
+    font: normal normal bold 18px/23px Nunito Sans;
+    letter-spacing: 0px;
+    color: #18317b;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .pp11,
+  .pp22,
+  .pp33 {
+    font: normal normal 600 15px/19px Nunito Sans;
+    letter-spacing: 0px;
+    color: #152d79;
+    opacity: 1;
+    margin-top: 16px;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+  @media only screen and (max-width: 480px) {
+    .numbering {
+      margin: 30px 19px 28px !important;
+      padding: 0px !important;
+      align-items: flex-start;
+      margin: 0px;
+      margin-bottom: 4%;
+    }
+    .btn1-part1{
+      background: 0% 0% no-repeat padding-box padding-box rgb(21, 45, 121);
+      box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
+      border-radius: 34px !important;
+      opacity: 1;
+      width: 276px !important;
+      height: 53px !important;
+      font-size: 14px !important;
+      font-family: "Nunito Sans", Bold;
+      color: rgb(252, 252, 252);
+    }
+    .hh1, .hh2, .hh3 {
+        text-align: left;
+        font: normal normal bold 14px/23px Nunito Sans;
+        letter-spacing: 0px;
+        color: #18317b;
+        opacity: 1;
+        text-align: center;
+    }
+    .pp11, .pp22, .pp33 {
+        font: normal normal 600 12px/18px Nunito Sans;
+        letter-spacing: 0px;
+        color: #152d79;
+        opacity: 1;
+        margin-top: 16px;
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+    .h2 {
+        text-align: center;
+        font: normal normal bold 18px/50px Nunito Sans;
+        letter-spacing: 0px;
+        color: #152d79;
+        opacity: 1;
+        margin-top: 7%;
+    }
+    .cardn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3%;
+        flex-direction: column;
+        margin-bottom: 6%;
+    }
+    .head11 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font: normal normal bold 13px/56px Nunito Sans;
+        letter-spacing: 0px;
+        color: #152d79;
+        opacity: 1;
+        margin-top: 2%;
+    }
+    .ppp1 {
+        width: 100%;
+        text-align: center;
+        font: normal normal 600 9px/38px Nunito Sans !important;
+        letter-spacing: 0px;
+        color: #152d79;
+        margin-top: 2% !important;
+        padding: 14px !important;
+    }
+    .tag {
+        text-align: center;
+        font: normal normal bold 22px/9px Nunito Sans;
+        letter-spacing: 0px;
+        color: #152d79;
+    }
+    .paragrap {
+        height: 599px;
+    }
+    .slpart1 {
+        align-items: center;
+        background-color: #546cb6;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 826px;
+    }
+  }
+

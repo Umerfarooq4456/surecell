@@ -1,0 +1,199 @@
+.im86.support{
+    width: 53%;
+    position: absolute;
+    transform: translate(227px,-13px);
+}
+
+.support-tetx.support{
+    background-color: #fff !important;
+}
+
+.dial{
+
+        display: flex;
+        justify-content: center;
+        background-color: #F5F7FF;
+        padding-top:8%;
+        padding-bottom: 6%;
+        position: relative;
+            
+}
+
+.dial img{
+
+    width: 31%;
+    z-index: 99;
+   
+}
+
+
+.dial .line{
+    position: absolute;
+    width: 66%;
+    border-bottom: 1px solid #A6BCF5;
+    z-index: 98;
+    color: #18317B;
+} 
+
+.line.pos1{
+
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 500px;
+}
+
+.line.pos2{
+    margin-top: 13.5%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 641px;
+}
+
+.line.pos3{
+    margin-top: 24.5%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 500px;
+}
+
+
+.feature{
+
+    position: absolute;
+    display: flex;
+   
+}
+
+.feature h2{
+    font: normal normal bold 30px/30px Nunito Sans;
+letter-spacing: 0px;
+color: #18317B;
+}
+
+.feature p{
+    font: normal normal 600 20px/30px Nunito Sans;
+letter-spacing: 0px;
+color: #152D79;
+}
+
+
+.feature1{
+    position: absolute;
+    left: 17%;
+    top: 16%;
+    font-size: 1vw;
+    width: 21vw;
+    color: #18317B;
+}
+
+.feature2{
+    position: absolute;
+    left: 62%;
+    top: 16%;
+    font-size: 1vw;
+    width: 21vw;
+    text-align: end;
+    color: #18317B;
+}
+
+.feature3{
+    position: absolute;
+    left: 17%;
+    top: 42%;
+    font-size: 1vw;
+    width: 21vw;
+    color: #18317B;
+}
+
+.feature4{
+    position: absolute;
+    left: 17%;
+    top: 66%;
+    font-size: 1vw;
+    width: 21vw;
+    color: #18317B;
+    
+    
+}
+.feature5{
+    position: absolute;
+    left: 62%;
+    top: 39%;
+    font-size: 1vw;
+    width: 21vw;
+    text-align: end;
+    color: #18317B;
+
+}
+.feature6{
+    position: absolute;
+    left: 62%;
+    top: 65%;
+    font-size: 1vw;
+    width: 21vw;
+    text-align: end;
+    color: #18317B;
+
+}
+
+.section2support{
+
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    padding:86px;
+    color:#152D79;
+}
+
+.section2support p{
+    color:#405EBF
+}
+
+.section2support .line{
+    border-left:1px solid #A6BCF5;
+}
+
+
+.section2support .basis{
+    flex-basis: 16%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+}
+
+.emergency{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal 800 25px/40px Nunito Sans;
+letter-spacing: 0px;
+text-align: center;
+color: #152D79;
+}
+
+.emergency p{
+    width: 36%;
+   
+}
+
+
+
+@media (max-width: 500px){
+
+
+   .section2support{
+
+        flex-direction: column;
+        row-gap: 10px;
+   }
+   .emergency p{
+
+    width: 70%;
+    font-size: 4vw;
+   } 
+
+}

@@ -1,0 +1,241 @@
+.slpart {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 537px;
+  align-items: center;
+}
+.slpart1 {
+  align-items: center;
+  background-color: #546cb6;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 600px;
+}
+
+.talk-text1,
+.talk-text2,
+.talk-text3 {
+  font-size: large;
+  color: #f7f9ff;
+  display: inline-block;
+  margin-bottom: 3px;
+  padding-bottom: 10px;
+}
+.talk-text1,
+.talk-text2 {
+  border-bottom: 1px solid #3793aa;
+  /* text-align: left; */
+  font: normal normal bold 24px/38px Nunito Sans;
+  letter-spacing: 0px;
+  color: #fcfcfc;
+  text-transform: capitalize;
+  opacity: 1;
+}
+.talk-text3 {
+  font: normal normal bold 22px/39px Nunito Sans;
+}
+
+.s1 {
+  display: flex;
+  background-repeat: no-repeat;
+  justify-content: flex-end;
+}
+
+.section1 {
+  padding: 70px;
+  margin-right: 156px;
+}
+.section22 {
+  margin-left: -5%;
+}
+.section2{
+    margin-left: 16%;
+}
+.p1 {
+  display: flex;
+  justify-content: center;
+}
+.p11 {
+  flex-direction: column;
+  display: flex;
+}
+
+.i1,
+.i2,
+.i3 {
+  padding: 0px 11px;
+  border-right: 7px solid #f5f7ff;
+  margin-top: 13px;
+}
+
+.i11,
+.i22,
+.i33 {
+  margin-top: -23px;
+  padding: 21px 8px;
+}
+.icon11 {
+  color: #fff;
+  margin-right: 24px;
+  margin-top: 1%;
+}
+.hhh3 {
+  width: 514px;
+  height: 61px;
+  /* text-align: left; */
+  font: normal normal 800 45px/61px Nunito Sans;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #152d79;
+  opacity: 1;
+}
+.he1 {
+  margin-right: 135px;
+  width: 587px;
+  height: 116px;
+  opacity: 1;
+  display: flex;
+  font: normal normal bold 41px/53px Nunito Sans;
+  letter-spacing: 0px;
+  color: #152d79;
+  text-transform: capitalize;
+}
+.savetalk{
+  width: 250px;
+  width: 105px;
+  height: 7px;
+  display: flex;
+  width: 30%;
+  height: -11px;
+  left: 1040px;
+  margin-top: -16px;
+  margin-left: 218px;
+}
+.g2b{
+  width: 105px;
+  height: 5px;
+  display: flex;
+  width: 19%;
+  height: -11px;
+  left: 1040px;
+  margin-top: -10px;
+  margin-left: 18px;
+}
+
+
+
+
+@media only screen and (max-width: 1450px) {
+
+.he1 {
+  /* margin-right: 135px; */
+  width: 587px !important;
+  height: 116px !important;
+  margin-right: -44px !important;
+  text-align: center;
+  opacity: 1;
+  display: flex;
+  font: normal normal bold 41px/53px Nunito Sans;
+  letter-spacing: 0px;
+  color: #152d79;
+  text-transform: capitalize;
+}
+.slpart1 {
+  align-items: center;
+  background-color: #546cb6;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 600px;
+}
+}
+
+
+@media only screen and (max-width: 480px) {
+
+  .img259 {
+    width: 259px !important;
+    height: 266px !important;
+    margin-bottom: 63px;
+
+}
+  .section2 {
+    margin-left: 4%;
+}
+.btn-savetalk{
+  width: 231px !important;
+    height: 56px !important;
+    background: 0% 0% no-repeat padding-box padding-box rgb(21, 45, 121);
+    box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
+    border-radius: 34px !important;
+    opacity: 1;
+    font-size: 16px !important;
+    margin-left: 13% !important;
+    margin-right: 20px !important;
+}
+.slpart {
+  background-color: white;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 506px;
+    align-items: center;
+}
+.img260 {
+  width: 289px !important;
+  height: 288px !important;
+  margin-bottom: 45px;
+
+}
+.hhh3 {
+  width: 100vw !important;
+  font: normal normal 800 29px/48px Nunito Sans !important;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #152d79;
+  opacity: 1;
+}
+.g2b{
+  display: none;
+}
+.he1 {
+  font: normal normal bold 17px/23px Nunito Sans !important;
+  letter-spacing: 0px;
+  color: #152d79;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0px !important;
+  text-align: center;
+  width: 100vw !important;
+
+}
+.savetalk{
+  display: none;
+}
+
+.btn-savetalk{
+  margin-left: 20px !important;
+
+}
+.section1 {
+  padding: 0px !important;
+  margin-right: 0px !important;
+}
+.img261 {
+  width: 269px !important;
+  height: 278px !important;
+  /* margin-left: 187px; */
+  margin-top: 20px !important;
+}
+.section2 {
+  display: contents;
+}
+}

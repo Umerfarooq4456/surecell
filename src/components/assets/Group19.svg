@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66" height="68" viewBox="0 0 66 68">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_15" data-name="Rectangle 15" width="63" height="65" transform="translate(-4 -3)" fill="#152d79"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_16" data-name="Rectangle 16" width="56" height="58" transform="translate(0 0)" fill="#152d79"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_17" data-name="Rectangle 17" width="66" height="68" transform="translate(-5 -4)" fill="#152d79"/>
+    </clipPath>
+  </defs>
+  <g id="Group_19" data-name="Group 19" transform="translate(4.545 4.143)">
+    <g id="Group_2" data-name="Group 2" transform="translate(0.455 -0.143)">
+      <g id="Group_1" data-name="Group 1" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Path_4" data-name="Path 4" d="M3.272,257.033a1.152,1.152,0,1,0,0,.008Z" transform="translate(-2.035 -226.852)" fill="#152d79"/>
+        <path id="Path_5" data-name="Path 5" d="M5.062,27.293a1.148,1.148,0,0,0,1.318-.947A25.766,25.766,0,0,1,30.3,4.741l-.385.385a1.148,1.148,0,1,0,1.623,1.623l2.4-2.395a1.148,1.148,0,0,0,0-1.623l-2.4-2.4a1.148,1.148,0,0,0-1.623,1.623l.479.479A28.186,28.186,0,0,0,4.116,25.974a1.148,1.148,0,0,0,.947,1.319" transform="translate(-4.799 -0.389)" fill="#152d79"/>
+        <path id="Path_6" data-name="Path 6" d="M354.126,459.671l-.019.011a1.148,1.148,0,0,0,1.128,2l.019-.011a1.148,1.148,0,0,0-1.127-2" transform="translate(-314.044 -407.072)" fill="#152d79"/>
+        <path id="Path_7" data-name="Path 7" d="M54.842,377.336a25.753,25.753,0,0,1-30.727-9.891l.526.141a1.148,1.148,0,0,0,.594-2.218l-3.272-.876a1.148,1.148,0,0,0-1.406.811l-.877,3.272a1.148,1.148,0,1,0,2.217.594l.175-.655a28.189,28.189,0,0,0,33.583,10.967,1.148,1.148,0,0,0-.815-2.146" transform="translate(-18.554 -322.932)" fill="#152d79"/>
+      </g>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(0.455 -0.143)">
+      <g id="Group_3" data-name="Group 3" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+        <path id="Path_8" data-name="Path 8" d="M354.195,54.46l.033.019a1.148,1.148,0,0,0,1.136-1.994l-.01-.006a1.148,1.148,0,0,0-1.159,1.981" transform="translate(-314.132 -46.694)" fill="#152d79"/>
+        <path id="Path_9" data-name="Path 9" d="M132.123,146.819a4.016,4.016,0,0,0-5.68,0l-.825.826a.96.96,0,0,1-1.356,0l-3.91-3.91a.96.96,0,0,1,0-1.356l.825-.825a4.016,4.016,0,0,0,0-5.679l-5.251-5.251a4.016,4.016,0,0,0-5.68,0,11.673,11.673,0,0,0,0,16.51l10.615,10.616a11.687,11.687,0,0,0,16.51,0,4.016,4.016,0,0,0,0-5.68Zm3.628,9.307a9.39,9.39,0,0,1-13.264,0L111.87,145.51a9.379,9.379,0,0,1,0-13.264,1.721,1.721,0,0,1,2.434,0l5.251,5.251a1.72,1.72,0,0,1,0,2.433l-.825.826a3.257,3.257,0,0,0,0,4.6l3.909,3.909a3.254,3.254,0,0,0,4.6,0l.825-.825a1.72,1.72,0,0,1,2.433,0l5.251,5.251a1.721,1.721,0,0,1,0,2.433" transform="translate(-95.714 -114.95)" fill="#152d79"/>
+        <path id="Path_10" data-name="Path 10" d="M269.988,120.111a1.148,1.148,0,0,0,0,2.3,10.7,10.7,0,0,1,10.683,10.683,1.148,1.148,0,0,0,2.3,0,12.993,12.993,0,0,0-12.979-12.978" transform="translate(-239.095 -106.688)" fill="#152d79"/>
+      </g>
+    </g>
+    <g id="Group_6" data-name="Group 6" transform="translate(0.455 -0.143)">
+      <g id="Group_5" data-name="Group 5" transform="translate(0 0)" clip-path="url(#clip-path-3)">
+        <path id="Path_11" data-name="Path 11" d="M269.988,181.192a3.927,3.927,0,0,1,3.923,3.922,1.148,1.148,0,0,0,2.3,0,6.225,6.225,0,0,0-6.218-6.218,1.148,1.148,0,0,0,0,2.3" transform="translate(-239.095 -158.713)" fill="#152d79"/>
+        <path id="Path_12" data-name="Path 12" d="M398.312,111.528l-.654.175a28.165,28.165,0,0,0-6.81-34.161,1.148,1.148,0,0,0-1.491,1.746,25.87,25.87,0,0,1,6.352,31.183l-.141-.526a1.148,1.148,0,0,0-2.217.594l.877,3.272a1.148,1.148,0,0,0,1.108.851,1.13,1.13,0,0,0,.3-.04l3.272-.876a1.148,1.148,0,1,0-.594-2.217" transform="translate(-345.398 -68.77)" fill="#152d79"/>
+      </g>
+    </g>
+  </g>
+</svg>
