@@ -9,29 +9,29 @@ const Section2 = () => {
        
       <div className="section2support">
         <div className="basis"><img src={img1} />
-        <h4>24/7 Customer Support</h4>
-        <p>75 trained emergency response agents</p></div>
+        <h4 className="basis-head1">24/7 Customer Support</h4>
+        <p className="basis-para1">75 trained emergency response agents</p></div>
    
         <div className="line"></div>
   
         <div className="basis"><img src={img2} />
-        <h4>Long Battery Life</h4>
-        <p>Lasts up to 18 months</p></div>
+        <h4 className="basis-head1">Long Battery Life</h4>
+        <p className="basis-para1">Lasts up to 18 months</p></div>
       
         <div className="line"></div>
      
         <div className="basis"><img src={img3} />
-        <h4>Quarter Sized Device</h4>
-        <p>Small enough to wear on your wrist</p></div>
+        <h4 className="basis-head1">Quarter Sized Device</h4>
+        <p className="basis-para1">Small enough to wear on your wrist</p></div>
      
       <div className="line"></div>
       <div className="basis"><img src={img4} />
-        <h4>Water Resistant</h4>
-        <p>Wear it all the time, even in the shower</p></div>
+        <h4 className="basis-head1">Water Resistant</h4>
+        <p className="basis-para1">Wear it all the time, even in the shower</p></div>
 
        </div>
       <div className="emergency">
-        <p>Our emergency dispatchers are based only in the USA</p>
+        <p className="USA-text">Our emergency dispatchers are based only in the USA</p>
         </div>
     </>
   );

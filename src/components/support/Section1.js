@@ -13,34 +13,34 @@ const Section1 = () => {
 
        
             <div className="feature1">
-                    <h2>Nationwide Dispatch</h2>
-                    <p>It doesn’t matter where you are. Our agents can send help to any location in the USA.</p>
+                    <h2 className='font-size'>Nationwide Dispatch</h2>
+                    <p className="font-para">It doesn’t matter where you are. Our agents can send help to any location in the USA.</p>
 
             </div>
 
             <div className="feature2">
-                    <h2>Fall Detection</h2>
-                    <p>If a fall is detected, our agents will reach out and ensure you get the help you need.</p>
+                    <h2 className='font-size'>Fall Detection</h2>
+                    <p className="font-para">If a fall is detected, our agents will reach out and ensure you get the help you need.</p>
 
             </div>
             <div className="feature3">
-                    <h2>Family Connection</h2>
-                    <p>Our agents notify family and caregivers whenever help is dispatched.</p>
+                    <h2 className='font-size'>Family Connection</h2>
+                    <p className="font-para">Our agents notify family and caregivers whenever help is dispatched.</p>
 
             </div>
             <div className="feature4">
-                    <h2>Simple Set-Up</h2>
-                    <p>Our agents get you set up in minutes.</p>
+                    <h2 className='font-size'>Simple Set-Up</h2>
+                    <p className="font-para">Our agents get you set up in minutes.</p>
 
             </div>
             <div className="feature5">
-                    <h2>Audio + Video Services</h2>
-                    <p>Upon activation,our agents can use video to assess your situation and send help, even if you can’t answer.</p>
+                    <h2 className='font-size'>Audio + Video Services</h2>
+                    <p className="font-para">Upon activation,our agents can use video to assess your situation and send help, even if you can’t answer.</p>
 
             </div>
             <div className="feature6">
-                    <h2>Location Assist</h2>
-                    <p>If you reach out, our agents can track your location and send help, even if you don’t know where you are</p>
+                    <h2 className='font-size'>Location Assist</h2>
+                    <p className="font-para">If you reach out, our agents can track your location and send help, even if you don’t know where you are</p>
 
             </div>
        </div> 

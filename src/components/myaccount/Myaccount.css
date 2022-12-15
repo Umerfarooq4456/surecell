@@ -179,6 +179,7 @@ font: normal normal 800 45px/61px Nunito Sans;
     /* align-items: center; */
     height: 1000px;
     background: #F5F7FF;
+    overflow: hidden;
 }
 .acordion{
     width: 965px;
