@@ -27,13 +27,9 @@ const Sectionthree = () => {
         <div className="numbering">
           <div style={{ textAlign: "center" }}>
             <h1 className="num1">1</h1>
-            {/* <div>
-            <img src={Arowicon} />
-            </div> */}
             <h3 className="hh1">Choose your plan</h3>
             <p className="pp11">
               Bring your own phone
-              <br />
               (or buy a new one)
             </p>
           </div>
@@ -47,7 +43,6 @@ const Sectionthree = () => {
             <h3 className="hh2">Get your SIM</h3>
             <p className="pp22">
               You will get Via express
-              <br />
               mail(within 3-5 Days)
             </p>
           </div>
@@ -61,7 +56,6 @@ const Sectionthree = () => {
             <h3 className="hh3">Activate your device</h3>
             <p className="pp33">
               You can keep your old
-              <br />
               number(our agents will guide you)
             </p>
           </div>
