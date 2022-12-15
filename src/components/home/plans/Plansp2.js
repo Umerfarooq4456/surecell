@@ -84,7 +84,7 @@ const Plansp2 = () => {
             <div className="nd-text6">
               <h3 className="nd-head1">Location Assist</h3>
               <p className="nd-para1">Use the battery for<br/>up to 18 months.</p>
-            </div>      
+            </div>    
            <img className="Group5" src={Group5} />
             <img  className="Group4" src={Group4} />
             <img className="Group6" src={Group6} />

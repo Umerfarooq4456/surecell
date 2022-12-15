@@ -10,6 +10,7 @@ import Ellipse40 from "../assets/Ellipse40.svg";
 import Ellipse41 from "../assets/Ellipse41.svg";
 import Ellipse44 from "../assets/Ellipse44.svg";
 import Stack from "@mui/material/Stack";
+import arrow from "../assets//arrow.png";
 
 const Sectionthree = () => {
   return (
@@ -36,6 +37,10 @@ const Sectionthree = () => {
               (or buy a new one)
             </p>
           </div>
+          
+          <div className="img-arrow">
+            <img className="arrow-1" src={arrow} />
+          </div>
 
           <div style={{ textAlign: "center" }}>
             <h1 className="num2">2</h1>
@@ -46,6 +51,11 @@ const Sectionthree = () => {
               mail(within 3-5 Days)
             </p>
           </div>
+
+          <div className="img-arrow">
+            <img className="arrow-1" src={arrow} />
+          </div>
+
           <div style={{ textAlign: "center" }}>
             <h1 className="num3">3</h1>
             <h3 className="hh3">Activate your device</h3>

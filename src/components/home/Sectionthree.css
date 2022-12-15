@@ -14,6 +14,11 @@
   background-color: #f5f7ff;
   flex-direction: column;
 }
+.arrow-1 {
+  width: 97px;
+  margin-right: 38px;
+  margin-bottom: 118px;
+}
 .h1 {
   text-align: center;
   font: normal normal 800 45px/75px Nunito Sans;
@@ -65,8 +70,7 @@
 .hh1,
 .hh2,
 .hh3 {
-  text-align: left;
-  font: normal normal bold 24px/32px Nunito Sans;
+  font: normal normal bold 15px/32px Nunito Sans;
   letter-spacing: 0px;
   color: #18317b;
   opacity: 1;
@@ -76,10 +80,11 @@
 .pp11,
 .pp22,
 .pp33 {
-  font: normal normal 600 16px/20px Nunito Sans;
+  font: normal normal 600 10px/21px Nunito Sans;
   letter-spacing: 0px;
   color: #152d79;
   opacity: 1;
+  text-align: center;
   margin-top: 16px;
   width: fit-content;
 }
@@ -234,6 +239,9 @@
       margin: 0px;
       margin-bottom: 4%;
     }
+    .arrow-1 {
+      display: none !important;
+  }
     .btn1-part1{
       background: 0% 0% no-repeat padding-box padding-box rgb(21, 45, 121);
       box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
