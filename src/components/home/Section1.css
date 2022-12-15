@@ -622,8 +622,8 @@ img {
 
 .talkborder{
   display: flex;
-  width: 24% !important;
-  height: 12px !important;
+  width: 28% !important;
+  height: 11px !important;
 }
 .mo15{
   font-family: "Nunito Sans", ExtraBold;
@@ -750,6 +750,9 @@ img {
     flex-direction: column;
     margin-top: -90px;
     height: 863px;
+  }
+  .save-upto{
+    margin-left: 6px !important;
   }
   .leftdiv {
     display: flex;

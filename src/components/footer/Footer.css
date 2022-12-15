@@ -71,6 +71,8 @@
 
 .footer-link-items > h2 {
   color: #fff;
+  text-transform: capitalize;
+    opacity: 1;
 }
 
 .footer-link-items a {

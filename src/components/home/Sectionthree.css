@@ -247,14 +247,14 @@
     }
     .hh1, .hh2, .hh3 {
         text-align: left;
-        font: normal normal bold 14px/23px Nunito Sans;
+        font: normal normal bold 11px/23px Nunito Sans !important;
         letter-spacing: 0px;
         color: #18317b;
         opacity: 1;
         text-align: center;
     }
     .pp11, .pp22, .pp33 {
-        font: normal normal 600 12px/18px Nunito Sans;
+      font: normal normal 600 10px/18px Nunito Sans !important;
         letter-spacing: 0px;
         color: #152d79;
         opacity: 1;

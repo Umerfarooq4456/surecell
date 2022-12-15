@@ -46,7 +46,7 @@ const Section1 = () => {
             style={{ color: "#EE8B3F", fontFamily: "Nunito Sans, ExtraBold" }}
           >
             Save up to{" "}
-            <span style={{ fontFamily: "Nunito Sans, Bold", color: "#152D79" }}>
+            <span className="save-upto" style={{ fontFamily: "Nunito Sans, Bold", color: "#152D79" }}>
               {" "}
               $300 on your yearly cell phone bill
             </span>
