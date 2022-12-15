@@ -66,7 +66,7 @@ const Myaccount = () => {
         <div className="acordion" onClick={handleClick}>
         <Accordion>
         <AccordionSummary
-          expandIcon={click ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
+          expandIcon={click ? <RemoveCircleOutlineIcon  style={{color: "orange"}}/> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
@@ -74,8 +74,7 @@ const Myaccount = () => {
         </AccordionSummary>
         <AccordionDetails>
           <p className="acordion-p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          We have no fancy offices, sales teams or marketing campaigns to support. We choose to forgo the above and pass the savings on to YOU.
           </p>
         </AccordionDetails>
       </Accordion>
@@ -89,9 +88,8 @@ const Myaccount = () => {
           <p className="acordion-para">Why is your service so cheap?</p>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="acordion-p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+        <p className="acordion-p">
+          We have no fancy offices, sales teams or marketing campaigns to support. We choose to forgo the above and pass the savings on to YOU.
           </p>
         </AccordionDetails>
       </Accordion>
@@ -102,12 +100,11 @@ const Myaccount = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <p className="acordion-para">Why is your service so cheap?</p>
+          <p className="acordion-para">What kind of cell phone service do I get?</p>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="acordion-p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+        <p className="acordion-p">
+          We have no fancy offices, sales teams or marketing campaigns to support. We choose to forgo the above and pass the savings on to YOU.
           </p>
         </AccordionDetails>
       </Accordion>
@@ -118,12 +115,11 @@ const Myaccount = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <p className="acordion-para">Why is your service so cheap?</p>
+          <p className="acordion-para">Do I need a contract to sign up for your plan?</p>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="acordion-p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+        <p className="acordion-p">
+          We have no fancy offices, sales teams or marketing campaigns to support. We choose to forgo the above and pass the savings on to YOU.
           </p>
         </AccordionDetails>
       </Accordion>
@@ -134,12 +130,11 @@ const Myaccount = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <p className="acordion-para">Why is your service so cheap?</p>
+          <p className="acordion-para">When do I pay?</p>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="acordion-p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+        <p className="acordion-p">
+          We have no fancy offices, sales teams or marketing campaigns to support. We choose to forgo the above and pass the savings on to YOU.
           </p>
         </AccordionDetails>
       </Accordion>
@@ -150,12 +145,11 @@ const Myaccount = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <p className="acordion-para">Why is your service so cheap?</p>
+          <p className="acordion-para">What happens if I miss a payment?</p>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="acordion-p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+        <p className="acordion-p">
+          We have no fancy offices, sales teams or marketing campaigns to support. We choose to forgo the above and pass the savings on to YOU.
           </p>
         </AccordionDetails>
       </Accordion>
@@ -166,12 +160,11 @@ const Myaccount = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <p className="acordion-para">Why is your service so cheap?</p>
+          <p className="acordion-para">I already have a smartphone. Can I use it with your plan?</p>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="acordion-p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+        <p className="acordion-p">
+          We have no fancy offices, sales teams or marketing campaigns to support. We choose to forgo the above and pass the savings on to YOU.
           </p>
         </AccordionDetails>
       </Accordion>
@@ -182,12 +175,11 @@ const Myaccount = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <p className="acordion-para">Why is your service so cheap?</p>
+          <p className="acordion-para">How many minutes can I speak per month?</p>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="acordion-p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+        <p className="acordion-p">
+          We have no fancy offices, sales teams or marketing campaigns to support. We choose to forgo the above and pass the savings on to YOU.
           </p>
         </AccordionDetails>
       </Accordion>
@@ -198,12 +190,11 @@ const Myaccount = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <p className="acordion-para">Why is your service so cheap?</p>
+          <p className="acordion-para">Can I call to Canada or Mexico?</p>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="acordion-p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+        <p className="acordion-p">
+          We have no fancy offices, sales teams or marketing campaigns to support. We choose to forgo the above and pass the savings on to YOU.
           </p>
         </AccordionDetails>
       </Accordion>
@@ -214,12 +205,11 @@ const Myaccount = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <p className="acordion-para">Why is your service so cheap?</p>
+          <p className="acordion-para">What happens if I use more than 2 GB of data?</p>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="acordion-p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+        <p className="acordion-p">
+          We have no fancy offices, sales teams or marketing campaigns to support. We choose to forgo the above and pass the savings on to YOU.
           </p>
         </AccordionDetails>
       </Accordion>
@@ -230,12 +220,26 @@ const Myaccount = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <p className="acordion-para">Why is your service so cheap?</p>
+          <p className="acordion-para">Are there any additional charges?</p>
         </AccordionSummary>
         <AccordionDetails>
-          <p className="acordion-p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+        <p className="acordion-p">
+          We have no fancy offices, sales teams or marketing campaigns to support. We choose to forgo the above and pass the savings on to YOU.
+          </p>
+        </AccordionDetails>
+      </Accordion>
+      <br/>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={click ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <p className="acordion-para">How do I sign up?</p>
+        </AccordionSummary>
+        <AccordionDetails>
+        <p className="acordion-p">
+          We have no fancy offices, sales teams or marketing campaigns to support. We choose to forgo the above and pass the savings on to YOU.
           </p>
         </AccordionDetails>
       </Accordion>

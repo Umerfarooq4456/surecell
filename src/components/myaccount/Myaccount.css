@@ -177,7 +177,7 @@ font: normal normal 800 45px/61px Nunito Sans;
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    height: 800px;
+    height: 1000px;
     background: #F5F7FF;
 }
 .acordion{
