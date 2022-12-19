@@ -172,14 +172,14 @@ font: normal normal 800 45px/61px Nunito Sans;
 }
 
 .acordion-div{
-    opacity: 1;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    max-height: 500px;
-    background: #F5F7FF;
-    overflow: auto;
-    margin-bottom: 20px;
+  opacity: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  max-height: 646px;
+  background: #F5F7FF;
+  overflow: auto;
+  margin-bottom: 13px;
 }
 .acordion{
     width: 965px;
@@ -237,8 +237,11 @@ opacity: 1;
       width: 100% !important;
       display: flex;
       justify-content: center;
-      height: 1251px !important;
+      height: 600px !important;
+      margin-bottom: 10px;
       background: #F5F7FF;
+      overflow: auto !important;
+  
     }
     .Group26 {
         display: none;
