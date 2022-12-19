@@ -238,7 +238,7 @@ transform: translateX(-50%);
 }
 
 .section4why .right h2{
-    text-align: left;
+    text-align: center;
 letter-spacing: 0px;
 color: #152D79;
 text-transform: capitalize;
@@ -532,4 +532,10 @@ padding:17px 55px;
         flex-direction: column;
     }
 
+}
+
+@media (max-width: 480px) {
+    .section4why .right h2 {
+        text-align: center !important;
+    }
 }
