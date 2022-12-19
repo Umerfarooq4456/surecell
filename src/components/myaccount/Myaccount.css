@@ -176,13 +176,14 @@ font: normal normal 800 45px/61px Nunito Sans;
     width: 100%;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    height: 1000px;
+    max-height: 500px;
     background: #F5F7FF;
+    overflow: auto;
+    margin-bottom: 20px;
 }
 .acordion{
     width: 965px;
-height: 75px;
+/* height: 75px; */
 border-radius: 5px;
 opacity: 1;
 }

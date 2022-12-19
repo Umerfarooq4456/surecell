@@ -9,8 +9,41 @@ import AddCircleOutlineOutlinedIcon from '@mui/icons-material/AddCircleOutlineOu
 import RemoveCircleOutlineIcon from '@mui/icons-material/RemoveCircleOutline';
 
 const Myaccount = () => {
-  const [click, setClick] = useState(false);
-  const handleClick = () => setClick(!click);
+  const [click1, setClick1] = useState(false);
+  const handleClick1 = () => setClick1(!click1);
+
+  const [click2, setClick2] = useState(false);
+  const handleClick2 = () => setClick2(!click2);
+  
+  const [click3, setClick3] = useState(false);
+  const handleClick3 = () => setClick3(!click3);
+  
+  const [click4, setClick4] = useState(false);
+  const handleClick4 = () => setClick4(!click4);
+  
+  const [click5, setClick5] = useState(false);
+  const handleClick5 = () => setClick5(!click5);
+  
+  const [click6, setClick6] = useState(false);
+  const handleClick6 = () => setClick6(!click6);
+  
+  const [click7, setClick7] = useState(false);
+  const handleClick7 = () => setClick7(!click7);
+  
+  const [click8, setClick8] = useState(false);
+  const handleClick8 = () => setClick8(!click8);
+  
+  const [click9, setClick9] = useState(false);
+  const handleClick9 = () => setClick9(click9);
+  
+  const [click10, setClick10] = useState(false);
+  const handleClick10 = () => setClick10(!click10);
+  
+  const [click11, setClick11] = useState(false);
+  const handleClick11 = () => setClick11(!click11);
+  
+  const [click12, setClick12] = useState(false);
+  const handleClick12 = () => setClick12(!click12);
 
 
   return (
@@ -63,10 +96,10 @@ const Myaccount = () => {
         </div>
 
       <div className="acordion-div">
-        <div className="acordion" onClick={handleClick}>
-        <Accordion>
+        <div className="acordion">
+        <Accordion  onClick={handleClick1}>
         <AccordionSummary
-          expandIcon={click ? <RemoveCircleOutlineIcon  style={{color: "orange"}}/> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
+          expandIcon={click1 ? <RemoveCircleOutlineIcon  style={{color: "orange"}}/> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
@@ -79,9 +112,9 @@ const Myaccount = () => {
         </AccordionDetails>
       </Accordion>
       <br/>
-      <Accordion>
+      <Accordion onClick={handleClick2}>
         <AccordionSummary
-          expandIcon={click ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
+          expandIcon={click2 ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
@@ -94,9 +127,9 @@ const Myaccount = () => {
         </AccordionDetails>
       </Accordion>
       <br/>
-      <Accordion>
+      <Accordion onClick={handleClick3}>
         <AccordionSummary
-          expandIcon={click ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
+          expandIcon={click3 ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
@@ -109,9 +142,9 @@ const Myaccount = () => {
         </AccordionDetails>
       </Accordion>
       <br/>
-      <Accordion>
+      <Accordion onClick={handleClick4}>
         <AccordionSummary
-          expandIcon={click ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
+          expandIcon={click4 ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
@@ -124,9 +157,9 @@ const Myaccount = () => {
         </AccordionDetails>
       </Accordion>
       <br/>
-      <Accordion>
+      <Accordion onClick={handleClick5}>
         <AccordionSummary
-          expandIcon={click ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
+          expandIcon={click5 ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
@@ -139,9 +172,9 @@ const Myaccount = () => {
         </AccordionDetails>
       </Accordion>
       <br/>
-      <Accordion>
+      <Accordion onClick={handleClick6}>
         <AccordionSummary
-          expandIcon={click ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
+          expandIcon={click6 ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
@@ -154,9 +187,9 @@ const Myaccount = () => {
         </AccordionDetails>
       </Accordion>
       <br/>
-      <Accordion>
+      <Accordion onClick={handleClick7}>
         <AccordionSummary
-          expandIcon={click ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
+          expandIcon={click7 ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
@@ -169,9 +202,9 @@ const Myaccount = () => {
         </AccordionDetails>
       </Accordion>
       <br/>
-      <Accordion>
+      <Accordion onClick={handleClick8}>
         <AccordionSummary
-          expandIcon={click ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
+          expandIcon={click8 ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
@@ -184,9 +217,9 @@ const Myaccount = () => {
         </AccordionDetails>
       </Accordion>
       <br/>
-      <Accordion>
+      <Accordion onClick={handleClick9}>
         <AccordionSummary
-          expandIcon={click ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
+          expandIcon={click9 ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
@@ -199,9 +232,9 @@ const Myaccount = () => {
         </AccordionDetails>
       </Accordion>
       <br/>
-      <Accordion>
+      <Accordion onClick={handleClick10}>
         <AccordionSummary
-          expandIcon={click ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
+          expandIcon={click10 ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
@@ -214,9 +247,9 @@ const Myaccount = () => {
         </AccordionDetails>
       </Accordion>
       <br/>
-      <Accordion>
+      <Accordion onClick={handleClick11}>
         <AccordionSummary
-          expandIcon={click ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
+          expandIcon={click11 ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
@@ -229,9 +262,9 @@ const Myaccount = () => {
         </AccordionDetails>
       </Accordion>
       <br/>
-      <Accordion>
+      <Accordion onClick={handleClick12}>
         <AccordionSummary
-          expandIcon={click ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
+          expandIcon={click12 ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
