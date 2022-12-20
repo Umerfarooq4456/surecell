@@ -191,7 +191,9 @@ left: 41px;
   color: #152D79;
   opacity: 1;
 }
-
+.month1{
+  font-size: 29px;
+}
 .parice-card{
   width: 421px;
   min-height: 399px;
@@ -552,9 +554,10 @@ left: 41px;
   font: bold 57px/10px "Nunito Sans" !important;
 }
 .d0l-1{
-  margin-left: -91px !important;
-    font: 800 30px / 29px "Nunito Sans" !important;
+  margin-left: -95px !important;
+  font: 800 30px / 64px "Nunito Sans" !important;
 }
+
 
 }
 

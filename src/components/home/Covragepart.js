@@ -119,7 +119,7 @@ const covragepart = () => {
                 font: " bold 63px / 18px Nunito Sans",
               }}
             >
-              15/mo
+              15<sapn className="month1">/month</sapn>
             </span>
           </div>
           <div className="border"></div>
@@ -191,7 +191,7 @@ const covragepart = () => {
                 font: " bold 63px / 18px Nunito Sans",
               }}
             >
-              15/mo
+              25<sapn className="month1">/month</sapn>
             </span>
           </div>
           <div className="border"></div>
