@@ -827,18 +827,19 @@ img {
     display: none;
   }
   .img {
-    width: 64% !important;
+    /* width: 64% !important;
     margin-top: 16px !important;
         margin-bottom: 0px !important;
     margin-left: 0px !important; 
-    margin-right: 0px !important;
+    margin-right: 0px !important; */
+    display: none !important;
 }
 .hd1 {
   text-align: left;
   font: normal normal 800 42px/35px Nunito Sans !important;
   color: #152d79;
   text-transform: capitalize;
-  margin-top: 31% !important;
+  margin-top: -11% !important;
   text-align: center;
   display: flex;
   opacity: 1;
@@ -861,20 +862,19 @@ img {
 
 }
 .buttonw {
-  width: 44%;
-  margin-top: 3%;
-  /* padding: 17px; */
+  width: 34% !important;
+  margin-top: 3% !important;
   display: flex;
   align-items: center;
-  margin-left: 97px;
-  margin-bottom: 31px;
-  font-size: 18px;
+  margin-left: 121px !important;
+  margin-bottom: 20px !important;
+  font-size: 15px !important;
   background: #ee8b3f 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
-  border-radius: 39px;
+  border-radius: 39px !important;
   opacity: 1;
   color: #fcfcfc;
-  /* align-items: center; */
+  align-items: center;
   justify-content: center;
 }
 
@@ -897,10 +897,10 @@ img {
   text-align: center;
 }
   .talk-text {
-    display: inline-block;
-    font-family: Nunito Sans, SemiBold;
-    margin-left: -1px;
-    font: normal normal 600 13px/11px Nunito Sans;
+    display: inline-block !important;
+    font-family: Nunito Sans, SemiBold !important;
+    margin-left: -1px !important;
+    font: normal normal 600 13px/11px Nunito Sans !important;
     letter-spacing: 0px;
     color: #18317b;
     opacity: 1;
@@ -933,45 +933,42 @@ img {
   }
 
   .rt1p {
-    /* text-align: left; */
-    font: normal normal bold 14px/14px Nunito Sans;
+    font: normal normal bold 10px/14px Nunito Sans !important;
     letter-spacing: 0px;
     color: #ffffff;
     text-transform: lowercase;
     text-align: center;
     opacity: 1;
-    margin-top: 18px;
-    margin-right: 15px;
+    margin-top: 11px !important;
+    margin-right: 5px !important;
 
 }
 
   .rt1h {
-    /* text-align: left; */
-    font: normal normal 800 25px/25px Nunito Sans;
+    font: normal normal 800 19px/24px Nunito Sans !important;
     letter-spacing: 0px;
     color: #ffffff;
     text-align: center;
     text-transform: capitalize;
-    
-    margin-right: 15px;
+    margin-right: 5px !important;
 
 }
   .pt1 {
-    margin-bottom: 9px;
+    margin-bottom: 9px !important;
     text-align: center;
-    font: normal normal 800 17px/17px Nunito Sans;
-    letter-spacing: 0px;
+    font: normal normal 800 17px/17px Nunito Sans !important;
+    letter-spacing: 0px !important;
     color: #152d79;
     opacity: 1;
 }
   .part2-card {
     background-color: #f5f7ff;
-    width: 151px !important;
+    width: 160px !important;
     padding: 8px !important;
     margin-right: 31px !important;
-    height: 64% !important;
+    height: 51% !important;
     text-align: center;
-    margin-right: 51px;
+    /* margin-right: 51px; */
     border-radius: 10px;
 }
   .rt1 {
@@ -987,7 +984,11 @@ img {
     color: #152D79;
     text-transform: capitalize;
     opacity: 1;
-    margin-top: 15%;
+    margin-top: -54% !important;
+
+}
+.section3{
+  height: 396px !important;
 }
 .para {
   text-align: center;
@@ -997,5 +998,7 @@ img {
   text-transform: lowercase;
   opacity: 1;
 }
-
+.btn1 {
+  margin-bottom: -267px !important;
+}
 }
