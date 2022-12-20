@@ -120,7 +120,7 @@
   width: 340px;
   height: 127px;
   text-align: center;
-  font: normal normal 600 20px/25px Nunito Sans;
+  font: normal normal 500 19px/25px Nunito Sans;
   letter-spacing: 0px;
   color: #152d79;
   opacity: 1;
@@ -334,4 +334,49 @@
       opacity: 1;
       margin-top: 7% !important;
   }
+  .head11 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: normal normal bold 29px/53px Nunito Sans !important;
+    letter-spacing: 0px;
+    color: #152d79;
+    opacity: 1;
+    margin-top: 2% !important;
+}
+.ppp1 {
+  width: 1127px;
+  text-align: center;
+  font: normal normal 500 20px/39px Nunito Sans !important;
+  letter-spacing: 0px;
+  color: #152d79;
+  margin-top: 4%;
+}
+  .numbering {
+    display: flex;
+    padding: 8px 277px 3px !important;
+    align-items: center;
+    margin: 30px 19px 28px !important;
+    margin-left: 17px !important;
+    justify-content: space-around;
+    margin-bottom: 4%;
+}
+.hh1, .hh2, .hh3 {
+  font: normal normal bold 19px/32px Nunito Sans !important;
+  letter-spacing: 0px;
+  color: #18317b;
+  width: 183px !important;
+  opacity: 1;
+  text-align: center;
+}
+.pp11, .pp22, .pp33 {
+  font: normal normal 400 16px/21px Nunito Sans !important;
+  letter-spacing: 0px;
+  color: #152d79;
+  opacity: 1;
+  text-align: center;
+  margin-top: 16px !important;
+  width: -moz-fit-content;
+  width: fit-content;
+}
   }

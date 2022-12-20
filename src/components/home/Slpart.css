@@ -132,25 +132,111 @@
 @media only screen and (max-width: 1450px) {
 
 .he1 {
-  /* margin-right: 135px; */
-  width: 587px !important;
-  height: 116px !important;
-  margin-right: -44px !important;
-  text-align: center;
+  
+    text-align: center;
+    opacity: 1;
+    display: flex;
+    font: normal normal bold 36px/38px Nunito Sans !important;
+    letter-spacing: 0px;
+    color: #152d79;
+    text-transform: capitalize;   
+    margin-right: 31px !important;
+    width: 425px !important; 
+    margin-left: 238px !important;
+
+}
+.section2 {
+  margin-left: 7% !important;
+}
+.savetalk {
+  height: 6px !important;
+    display: flex;
+    width: 26% !important;
+    margin-top: -43px !important;
+    margin-left: 436px !important;
+}
+.btn-savetalk{
+  width: 228px !important;
+  height: 52px !important;
+  background: 0% 0% no-repeat padding-box padding-box rgb(21, 45, 121);
+  box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
+  border-radius: 34px !important;
   opacity: 1;
-  display: flex;
-  font: normal normal bold 41px/53px Nunito Sans;
-  letter-spacing: 0px;
-  color: #152d79;
-  text-transform: capitalize;
+  font-size: 15px !important;
+  margin-left: 47% !important;
 }
 .slpart1 {
   align-items: center;
   background-color: #546cb6;
-  width: 100%;
+  width: 100% !important;
   display: flex;
   justify-content: center;
-  height: 600px;
+  height: 410px !important;
+}
+.slpart{
+  height: 355px !important;
+}
+.img259{
+  width: 334px !important;
+  margin-right: 143px !important;
+}
+.talk-text1, .talk-text2 {
+  border-bottom: 1px solid #3793aa;
+  /* text-align: left; */
+  font: normal normal bold 18px/27px Nunito Sans !important;
+  letter-spacing: 0px;
+  color: #fcfcfc;
+  text-transform: capitalize;
+  opacity: 1;
+}
+.talk-text3 {
+  font: normal normal bold 18px/27px Nunito Sans !important;
+}
+.icon11 {
+  color: #fff;
+  margin-right: 23px;
+  /* margin-top: 0%; */
+  width: 34px !important;
+  height: 46px !important;
+}
+/* .section2 {
+  margin-left: 0% !important;
+  margin-top: 54px !important;
+  margin-right: 64px !important;
+} */
+.img260{
+  width: 267px !important;
+}
+.img261{
+  width: 267px !important;
+  margin-right: 210px !important;
+}
+.g2b {
+  height: 3px;
+  display: flex;
+  width: 13% !important;
+  left: 1040px !important;
+  margin-top: -42px !important;
+  margin-left: 87px !important;
+  margin-bottom: 23px !important;
+}
+.hhh3 {
+  width: 513px !important;
+  height: 59px !important;
+  /* text-align: left; */
+  font: normal normal 800 32px/0px Nunito Sans !important;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #152d79;
+  opacity: 1;
+}
+.section22 {
+  margin-left: -5% !important;
+}
+.section1 {
+  padding: 70px !important;
+  margin-right: 32px !important;
+  margin-left: 33px !important;
 }
 }
 

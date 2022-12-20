@@ -100,11 +100,11 @@ const Slpart = () => {
               boxShadow: "0px 3px 6px #00000029",
               borderRadius: "34px",
               opacity: "1",
-              fontSize: "20px",
-              marginLeft: "13%"
+              fontSize: "14px",
+             
             }}
             variant="contained"
-            size="lg"
+            
           >
            Join Us Today
           </Button>

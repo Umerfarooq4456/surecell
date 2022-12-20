@@ -13,7 +13,7 @@ const covragepart = () => {
       <div className="covrage-section">
         <div className="part1">
           <div className="icons1">
-            <img src={Group19} className="icon1" />
+            <img  src={Group19} className="icon1" />
             <h3 className="talk-text">
               Unlimited
               <br />
