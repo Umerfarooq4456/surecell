@@ -3,11 +3,11 @@
 .sectionk {
   background-color: #fcfcfc;
   width: 100%;
-  margin-top: 21px;
   height: 750px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: -144px;
 }
 .hd1 {
   text-align: left;
