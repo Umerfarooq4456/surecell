@@ -683,8 +683,8 @@ img {
 }
 .img {
   width: 100% !important;
-  margin-bottom: 236px !important;
-  margin-left: -418px !important;
+  margin-bottom: 202px !important;
+  margin-left: -414px !important;
   margin-right: 265px !important;
 }
 .cd1i {
@@ -746,7 +746,7 @@ img {
   align-items: center;
   width: 169px;
   right: 287px;
-  top: 290px;
+  top: 251px !important;
   height: 81px;
   justify-content: center;
   display: flex;
@@ -782,8 +782,7 @@ img {
 .sectionk {
   background-color: #fcfcfc;
   width: 100%;
-  margin-top: 66px;
-  height: 489px !important;
+  height: 585px!important;
   display: flex;
   justify-content: center;
   align-items: center;
