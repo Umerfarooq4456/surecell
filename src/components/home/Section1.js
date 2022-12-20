@@ -7,6 +7,7 @@ import Group254 from "../assets/Group254.svg";
 import Group255 from "../assets/Group255.svg";
 import Group256 from "../assets/Group256.svg";
 
+
 const Section1 = () => {
   return (
     <div className="sectionk">
@@ -21,7 +22,7 @@ const Section1 = () => {
           />
         </h1>
         <h2 className="hd2" style={{ fontFamily: "Nunito Sans , SemiBold" }}>
-          Starting at{" "}
+          Starting at
           <span
            className="mo15"
             style={{
@@ -56,7 +57,7 @@ const Section1 = () => {
 
       <div className="rightdiv">
         <div className="cd1">
-          <h2 className="cd1h">2GB HIGH SPEED DATA</h2>
+          <h2 className="cd1h">2GB High Speed Data</h2>
         </div>
         <img className="img" src={Group} />
 
@@ -87,7 +88,7 @@ const Section1 = () => {
             <span className="dollar" style={{ fontSize: "30px" }}>
               $
             </span>{" "}
-            15 <span className="mo1" style={{ fontSize: "35px", marginTop: "10px" }}>/mo</span>
+            <span className="mo151">15</span> <span className="mo1" style={{ fontSize: "36px", marginTop: "16px" }}>/mo</span>
           </h2>
           <div className="cd2t">
             <h1 className="bestvalue">Best Value</h1>

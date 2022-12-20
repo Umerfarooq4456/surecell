@@ -69,9 +69,9 @@ const Sectionthree = () => {
               boxShadow: "0px 3px 6px #00000029",
               borderRadius: "34px",
               opacity: "1",
-              width: "312px",
-              height: "60px",
-              fontSize: "20px",
+              width: "277px",
+              height: "51px",
+              fontSize: '17px',
               fontFamily: "Nunito Sans, Bold",
               color: "#FCFCFC",
             }}
@@ -85,7 +85,7 @@ const Sectionthree = () => {
 
       <div className="section4">
         <h1 className="h2">
-          Pay less per month,get Unlimited support and
+          Pay less per month, get Unlimited support and
           <br />
           connect to the ones you love.
         </h1>

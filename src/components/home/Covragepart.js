@@ -5,6 +5,7 @@ import Group18 from "../assets/Group18.svg";
 import Group19 from "../assets/Group19.svg";
 import Group17 from "../assets/Group17.svg";
 import tick from "../assets/tick.svg";
+import Iconarrow from "../assets/Iconarrow.svg";
 
 const covragepart = () => {
   return (
@@ -40,7 +41,7 @@ const covragepart = () => {
         <div className="rt1">
           <h1 className="rt1h">Nationwide Coverage For Less</h1>
           <p className="rt1p">
-            connect to america's largest,fastest
+            connect to america's largest, fastest
             <br />
             and most reliable 5G network
           </p>
@@ -165,6 +166,8 @@ const covragepart = () => {
             variant="primary"
           >
             Learn More
+            <img className="pricc-btnimg"
+                style={{ width: "7px", height: "10px", marginLeft: "10px" }} src={Iconarrow} />
           </Button>{" "}
         </div>
 
@@ -235,9 +238,14 @@ const covragepart = () => {
             variant="primary"
           >
             Learn More
+            <img className="pricc-btnimg"
+                style={{ width: "7px", height: "10px", marginLeft: "10px" }} src={Iconarrow} />
           </Button>{" "}
         </div>
       </div>
+      <div className="text-belowbtn">
+          <p className="belowbtn1">You don't need to figure out how many minutes you need each month or how much data you use. We offer unlimited everything, at one set price per month.</p>
+        </div>
       
     </>
   );
