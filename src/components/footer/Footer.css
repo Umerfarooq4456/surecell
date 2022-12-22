@@ -178,6 +178,7 @@ text-transform: lowercase;
   color: #FCFCFC;
   text-transform: capitalize;
   opacity: 1;
+  font-weight: 500;
 }
 .ft1{
   background: #F5F7FF 0% 0% no-repeat padding-box;
@@ -187,25 +188,43 @@ text-transform: lowercase;
   align-items: center;
   height: 40px;
 }
+/* .trans-foot{
+  background-color: #122665;
+  width: 100vw;
+  
+} */
 
 @media only screen and (max-width: 480px) {
   .footer-container {
     background-color: #122665;
-    display: flow-root;
-    height: 332px;
+    display: flex;
+    height: 244px !important;
+    /* justify-content: space-around; */
+    flex-direction: column;
 }
-.footer-logo {
-  margin-top: 12px !important;
+
+.footer-link-wrapper {
+  transform: scale(0) !important;
+  margin-right: -193px !important;
 }
+
+.social-media-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -67px !important;
+}
+
 .footer-links {
   display: flex;
   justify-content: center;
-  margin-top: -29% !important;
-  margin-left: -4% !important;
+  margin-top: 0% !important;
+  margin-left: 0% !important;
+  width: 0% !important;
+
 }
 .hq1 {
   text-align: center;
-  font: normal normal 800 15px/35px Nunito Sans;
+  font: normal normal 500 15px/35px Nunito Sans !important;
 }
 .hq2 {
   font-size: 12px !important;
@@ -216,6 +235,7 @@ text-transform: lowercase;
   width: 124px !important;
   height: 37px !important;
   justify-content: center;
+  font-weight: 500;
 }
 .footer-link-items {
   display: flex;
@@ -227,4 +247,64 @@ text-transform: lowercase;
   margin-top: 49% !important;
   align-items: center;
 }
+}
+
+
+@media only screen and (max-width: 990px) {
+
+.trans-foot{
+  transform: scale(0.8) !important;
+}
+.footer-link-wrapper {
+  display: flex;
+  /* width: 100vw; */
+  transform: scale(0.7);
+}
+.footer-link-items {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  /* margin: 11px; */
+  /* text-align: left; */
+  /* width: 174px; */
+  /* box-sizing: border-box; */
+  margin-top: 15% !important;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 0% !important; 
+  margin-left: 0% !important; 
+  width: 45%  !important;
+
+}
+.footer-logo {
+  margin-top: 41px !important;
+}
+.footer-container {
+  background-color: #122665;
+  display: flex;
+  height: 244px !important;
+  justify-content: space-around;
+}
+}
+
+@media only screen and (max-width: 768px) {
+
+  .footer-logo{
+    transform: scale(0.7);
+  }
+  .footer-link-wrapper{
+    transform: scale(0.6);
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .footer-logo{
+    transform: scale(0.6);
+  }
+  .footer-link-wrapper{
+    transform: scale(0.5) !important;
+    margin-right: 64px;
+  }
 }

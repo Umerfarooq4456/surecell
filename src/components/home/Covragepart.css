@@ -22,7 +22,7 @@
     letter-spacing: 0px;
     color: #152D79;
     width: 820px;
-    text-transform: lowercase;
+   
 }
 .buttonw1{
   font-family: "Nunito Sans";
@@ -103,44 +103,7 @@ left: 41px;
   left: 41px;
 }
 
-.covrage-section {
-  height: 128px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  padding: 30px;
-  background: #F5F7FF 0% 0% no-repeat padding-box;
-  opacity: 1;
-  align-items: center;
-  height: 166px;
-}
 
-.part1 {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-}
-
-.talk-text {
-  display: inline-block;
-  font-family: Nunito Sans, SemiBold;
-  margin-left: 15px;
-  text-align: left;
-  font: normal normal 600 24px/30px Nunito Sans;
-  letter-spacing: 0px;
-  color: #18317B;
-  opacity: 1;
-
-}
-.icons1,
-.icons2,
-.icons3 {
-  padding: 26px 23px;
-  display: flex;
-    align-items: center;
-}
 .rt1h{
   font-size: 45px;
     font-family: Nunito Sans, ExtraBold;
@@ -178,8 +141,9 @@ left: 41px;
 }
 
 .kk1{
-  height: 220px;
-  padding: 25px;
+  
+  margin: 79px 0px;
+
 }
 
 .kk2{
@@ -275,6 +239,31 @@ left: 41px;
 
 }
 
+@media only screen and (max-width: 735px){
+
+  .cardd1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 604px;
+    flex-direction: column;
+    width: 100%;
+  }
+  .kk2{
+    text-align: center;
+    font: normal normal 800 23px/53px Nunito Sans !important;
+    letter-spacing: 0px;
+    color: #152D79;
+    display: flex;
+    opacity: 1;
+    align-items: center;
+    justify-content: center;
+    width: 100% !important;
+  }
+
+}
+
+
 
 @media only screen and (max-width: 480px) {
   .belowbtn1 {
@@ -317,17 +306,7 @@ left: 41px;
   text-align: center;
 }
 
-.kk2{
-  text-align: center;
-  font: normal normal 800 23px/53px Nunito Sans !important;
-  letter-spacing: 0px;
-  color: #152D79;
-  display: flex;
-  opacity: 1;
-  align-items: center;
-  justify-content: center;
-  width: 100% !important;
-}
+
 
 .k1{
   text-align: center;
@@ -345,6 +324,8 @@ left: 41px;
   /* height: 181px; */
   /* padding: 27px; */
   width: 100%;
+  height: 128px !important;
+  margin: 39px 0px;
 }
 .l1 {
   width: 263px;

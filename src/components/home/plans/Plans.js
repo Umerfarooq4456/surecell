@@ -15,7 +15,7 @@ const Plans = () => {
     <>
       <div className="plans-main">
         <div className="support-tetx">
-          <div>
+          <div className="support-trans">
             <p className="service-p">
               The Service You Want. The Support You Need.{" "}
             </p>
@@ -116,7 +116,6 @@ const Plans = () => {
               />
             </Button>{" "}
           </div>
-
           <div className="parice-card3">
             <button className="btnbasic4">Premium Protection Plan</button>
             <div className="doll2">
@@ -223,8 +222,8 @@ const Plans = () => {
               style={{
                 position: "absolute",
                 marginTop: "122px",
-                height: "3.5px",
-                marginLeft: "134px",
+                height: "2.9px",
+                marginLeft: "137px",
               }}
               src={Group86}
             />
@@ -276,7 +275,7 @@ const Plans = () => {
             </div>
 
             <div className="iicon">
-              <div className="iicon-head">
+              <div className="iicon-headl">
                 <img className="iicon-img" src={Group199} />
                 <h2 className="hed">Location Assist</h2>
                 <p className="per">

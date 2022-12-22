@@ -15,80 +15,10 @@ import arrow from "../assets//arrow.png";
 const Sectionthree = () => {
   return (
     <>
-      <div className="section3">
-        <div className="t1">
-          <h1 className="h1">How It Works</h1>
-          <p className="para">
-            Pay less per month, get Unlimited support and <br />
-            connect to the ones you love.
-          </p>
-        </div>
+    
 
-        <div className="numbering">
-          <div style={{ textAlign: "center" }}>
-            <h1 className="num1">1</h1>
-            <h3 className="hh1">Choose your plan</h3>
-            <p className="pp11">
-              Bring your own phone
-              (or buy a new one)
-            </p>
-          </div>
-          
-          <div className="img-arrow">
-            <img className="arrow-1" src={arrow} />
-          </div>
 
-          <div style={{ textAlign: "center" }}>
-            <h1 className="num2">2</h1>
-            <h3 className="hh2">Get your SIM</h3>
-            <p className="pp22">
-              You will get Via express
-              mail(within 3-5 Days)
-            </p>
-          </div>
-
-          <div className="img-arrow">
-            <img className="arrow-1" src={arrow} />
-          </div>
-
-          <div style={{ textAlign: "center" }}>
-            <h1 className="num3">3</h1>
-            <h3 className="hh3">Activate your device</h3>
-            <p className="pp33">
-              You can keep your old
-              number(our agents will guide you)
-            </p>
-          </div>
-        </div>
-
-        <div className="btn1">
-          <Button
-          className="btn1-part1"
-            style={{
-              background: " #152D79 0% 0% no-repeat padding-box",
-              boxShadow: "0px 3px 6px #00000029",
-              borderRadius: "34px",
-              opacity: "1",
-              width: "277px",
-              height: "51px",
-              fontSize: '17px',
-              fontFamily: "Nunito Sans, Bold",
-              color: "#FCFCFC",
-            }}
-            variant="contained"
-            size="large"
-          >
-            Join Us Today
-          </Button>
-        </div>
-      </div>
-
-      <div className="section4">
-        <h1 className="h2">
-          Pay less per month, get Unlimited support and
-          <br />
-          connect to the ones you love.
-        </h1>
+     
 
         <div className="cardn">
           <div className="citem1">
@@ -119,9 +49,9 @@ const Sectionthree = () => {
             </p>
           </div>
         </div>
-      </div>
 
-      <div className="paragrap">
+
+      {/* <div className="paragrap">
         <h1>
           <img style={{ marginTop: "120%" }} src={Group53} />
         </h1>
@@ -153,7 +83,7 @@ const Sectionthree = () => {
             <img src={Ellipse41} />
           </Stack>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

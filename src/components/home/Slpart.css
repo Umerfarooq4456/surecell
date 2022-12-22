@@ -1,11 +1,10 @@
 .slpart {
-  background-color: white;
+  background-color: #F5F7FF;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 537px;
-  align-items: center;
+  
 }
 .slpart1 {
   align-items: center;
@@ -46,8 +45,9 @@
 }
 
 .section1 {
-  padding: 70px;
+  padding: 10px 70px;
   margin-right: 156px;
+  
 }
 .section22 {
   margin-left: -5%;
@@ -175,6 +175,7 @@
 }
 .slpart{
   height: 355px !important;
+
 }
 .img259{
   width: 334px !important;
@@ -304,6 +305,8 @@
 
 .btn-savetalk{
   margin-left: 20px !important;
+  margin-right: 242px !important;
+
 
 }
 .section1 {

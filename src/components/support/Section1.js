@@ -4,6 +4,7 @@ import img1 from "../assets/Group 279.png";
 const Section1 = () => {
   return (
     <>
+    <div className="upper-div" style={{backgroundColor:"#f5f7ff"}}>
        <div className="dial">
 
             <img src={img1}  />
@@ -44,7 +45,7 @@ const Section1 = () => {
 
             </div>
        </div> 
-
+       </div>
 
     </>
   );

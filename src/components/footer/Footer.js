@@ -7,6 +7,7 @@ import logo2 from '../assets/logo2.png';
 function Footer() {
   return (
     <>
+
     <div className="footer-container">
         <div className="social-media-wrap" >
           <div className="footer-logo">
@@ -45,6 +46,7 @@ function Footer() {
       <p className="ftl">Powered By</p>
       <img src={logo2 } />
     </div>
+ 
     </>
   );
 }

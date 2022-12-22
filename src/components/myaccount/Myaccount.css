@@ -222,7 +222,21 @@ opacity: 1;
 
 
 @media only screen and (max-width: 480px) {
-
+  .form-heading {
+    display: grid;
+    align-items: center;
+    margin-right: 56px ;
+    margin-bottom: 0px;
+}
+.account-main {
+  opacity: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+  height: 45px;
+}
     .act-h {
         text-align: center;
         font: normal normal 800 19px/25px Nunito Sans !important;

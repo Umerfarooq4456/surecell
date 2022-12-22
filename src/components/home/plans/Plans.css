@@ -12,9 +12,16 @@
   align-items: center;
   text-align: center;
 }
+.support-trans{
+  transform: scale(0.9);
+}
+.head-h1{
+  transform: scale(0.8);
+}
+
 .service-p {
   text-align: center;
-  font: normal normal 600 26px/61px Nunito Sans;
+  font: normal normal 500 26px/61px Nunito Sans;
   letter-spacing: 0px;
   color: #152d79;
 }
@@ -86,7 +93,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* transform: scale(0.8); */
+  margin-top: -13px;
 }
+
 
 .parice-card2 {
   width: 321px;
@@ -106,7 +116,6 @@
   width: 321px;
   min-height: 370px;
   display: flex;
-  margin-right: 14px;
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -156,12 +165,13 @@
 .showtext {
   width: 637px;
   text-align: center;
-  font: normal normal 600 20px/30px Nunito Sans;
+  font: normal normal 500 20px/30px Nunito Sans;
   letter-spacing: 0px;
   color: #152d79;
   opacity: 1;
   display: flex;
   text-align: center;
+  transform: scale(0.8);
 }
 .pa1 {
   display: flex;
@@ -171,7 +181,7 @@
 }
 
 .network-part {
-  height: 499px;
+  height: 441px;
   background: #546cb6 0% 0% no-repeat padding-box;
   opacity: 1;
   margin-top: 30px;
@@ -179,6 +189,7 @@
 .network-heading {
   display: flex;
   justify-content: center;
+  height: 164px;
 }
 
 .nth {
@@ -190,6 +201,7 @@
   margin-top: 45px;
   color: #ffffff;
   display: flex;
+  transform: scale(0.9);
 }
 
 .iicon-img {
@@ -212,7 +224,7 @@
 .per {
   width: 190px;
   text-align: left;
-  font: normal normal 600 15px/22px Nunito Sans;
+  font: normal normal 500 15px/22px Nunito Sans;
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
@@ -222,10 +234,66 @@
   border-right: 1px solid #74bfd8;
   opacity: 1;
 }
+.iicon-headl{
+  margin-right: 15px;
+  opacity: 1;
+}
+.iicon{
+  margin-right: 14px;
+}
 .main-iccon {
   display: flex;
   justify-content: center;
-  margin-top: 87px;
+  margin-top: 23px;
+  transform: scale(0.9);
+}
+
+@media only screen and (max-width: 1007px){
+  .main-iccon{
+    transform: scale(0.7) !important;
+  }
+  .main-imgdiv{
+    transform: scale(0.8);
+  }
+}
+
+@media only screen and (max-width: 788px){
+  .main-iccon{
+    transform: scale(0.5) !important;
+  }
+.main-imgdiv{
+  transform: scale(0.5);
+  margin-top: -111px;
+  margin-bottom: 0px !important;
+}
+.need-text{
+  transform: scale(0.8);
+  
+}
+}
+
+@media only screen and (max-width: 650px) {
+  .pc{
+    transform: scale(0.8);
+  }
+  .icons-div{
+    transform: scale(0.9);
+    margin-right: 0px !important;
+  }
+  .para-div {
+    background: #f5f7ff 0% 0% no-repeat padding-box;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 1;
+    height: 340px !important;
+}
+.po3 {
+  width: 327px !important;
+  text-align: center;
+  font: normal normal 600 12px/27px Nunito Sans;
+  letter-spacing: 0px;
+  color: #152d79;
+  opacity: 1;
+}
 }
 
 @media only screen and (max-width: 480px) {
@@ -319,16 +387,17 @@
   display: none;
 }
 .network-part {
-  height: 896px;
+  height: 901px !important;
   background: #546cb6 0% 0% no-repeat padding-box;
   opacity: 1;
-  margin-top: 30px;
+   /* margin-top: 30px; */
 }
 .main-iccon {
   display: flex;
-  justify-content: center;
-  margin-top: 87px;
-  flex-direction: column;
+    justify-content: center;
+    margin-top: -18px !important;
+    flex-direction: column;
+    transform: none !important;
 }
 .hed {
   font: normal normal bold 15px/21px Nunito Sans;
@@ -339,6 +408,15 @@
   justify-content: center;
 }
 .iicon-head {
+  margin-right: 15px;
+  opacity: 1;
+  display: flex;
+  border: none;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.iicon-headl{
   margin-right: 15px;
   opacity: 1;
   display: flex;

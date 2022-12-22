@@ -17,7 +17,7 @@
 }
 .po1 {
   text-align: left;
-  font: normal normal 600 17px/15px Nunito Sans;
+  font: normal normal 500 17px/15px Nunito Sans;
   letter-spacing: 0px;
   color: #152d79;
   text-transform: capitalize;
@@ -30,11 +30,11 @@
   background: #f5f7ff 0% 0% no-repeat padding-box;
   border-radius: 10px 0px 0px 0px;
   opacity: 1;
-  height: 239px;
+  height: 208px;
 }
 .po2 {
   text-align: center;
-  font: normal normal bold 19px/33px Nunito Sans;
+  font: normal normal bold 19px/9px Nunito Sans;
   letter-spacing: 0px;
   color: #405ebf;
   opacity: 1;
@@ -74,14 +74,14 @@
 
 .need-p {
   text-align: center;
-  font: normal normal bold 22px/30px Nunito Sans;
+  font: normal normal bold 19px/24px Nunito Sans;
   letter-spacing: 0px;
   color: #405ebf;
   opacity: 1;
 }
 
 .need-h {
-  font: normal normal 800 37px/48px Nunito Sans;
+  font: normal normal 800 34px/40px Nunito Sans;
   color: #152d79;
   opacity: 1;
 }
@@ -104,14 +104,14 @@
 
 .nd-para {
   text-align: right;
-  font: normal normal 600 13px/15px px Nunito Sans;
+  font: normal normal 500 13px/15px px Nunito Sans;
   letter-spacing: 0px;
   color: #152d79;
   opacity: 1;
 }
 .nd-para1 {
   text-align: left;
-  font: normal normal 600 13px/15px px Nunito Sans;
+  font: normal normal 500 13px/15px px Nunito Sans;
   letter-spacing: 0px;
   color: #152d79;
   opacity: 1;
@@ -260,6 +260,9 @@
         color: #152d79;
         display: contents;
     }
+    .iicon{
+      margin-right: 0px !important;
+    }
     .service-p {
         text-align: center;
         font: normal normal 600 14px/58px Nunito Sans;
@@ -277,7 +280,6 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin-top: 71px;
     }
 
     .plans-main {
@@ -300,6 +302,9 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-top: -122px !important;
+        margin-bottom: -76px !important;
+
     }
 
     .parice-card2 {
@@ -385,7 +390,7 @@
 }
 .ho3 {
     text-align: center;
-    font: normal normal 800 19px/5px Nunito Sans;
+    font: normal normal 800 19px/24px Nunito Sans;
     letter-spacing: 0px;
     color: #152d79;
     text-transform: capitalize;
@@ -424,46 +429,24 @@
     height: 211px !important;
 }
 .Group5 {
-    top: 39px;
-    position: absolute;
-    right: 86px;
-    height: 34px;
+  display: none;
 }
 .Group6 {
-    top: 87px;
-    position: absolute;
-    right: 86px;
-    /* width: 38px; */
-    height: 34px;
+  display: none;
 }
 .Group4 {
-    top: 130px;
-    position: absolute;
-    right: 86px;
-    /* width: 38px; */
-    height: 34px;
+  display: none;
 }
 .Group1 {
-    top: 39px;
-    position: absolute;
-    left: 86px;
-    height: 34px;
+  display: none;
 }
 
 .Group2{
-    top: 87px;
-    position: absolute;
-    left: 86px;
-    /* width: 38px; */
-    height: 34px;
+  display: none;
 }
 
 .Group3 {
-    top: 130px;
-    position: absolute;
-    left: 86px;
-    /* width: 38px; */
-    height: 34px;
+  display: none;
 }
 .nd-btn {
     width: 198px;
@@ -499,6 +482,7 @@
 
 
 }
+
 
 
 

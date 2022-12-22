@@ -50,7 +50,7 @@ const Slpart = () => {
         </div>
       </div>
 
-      <div className="slpart">
+      <div className="slpart" style={{paddingTop: "100px"}}>
         <div className="section1">
         <img className="img260" src={Group260} />
         </div>
@@ -82,12 +82,12 @@ const Slpart = () => {
         </div>
       </div>
 
-      <div className="slpart">
+      <div className="slpart" style={{paddingBottom: "100px",paddingTop:"40px"}}>
         <div className="section2">
-          <h1 className="he1" style={{ marginRight: "135px",textAlign: "center"}}>
-            Get Unlimited Talk,Text,
+          <h1 className="he1" style={{ textAlign: "center"}}>
+            Get Unlimited Talk, Text,
             <br />
-            And Data And Save!
+            And Data And SAVE!
           </h1>
           <img className="savetalk" src={Group2} />
           <br/>
@@ -101,7 +101,9 @@ const Slpart = () => {
               borderRadius: "34px",
               opacity: "1",
               fontSize: "14px",
-             
+              position: "relative",
+    left: "115px",
+    top: "34px"
             }}
             variant="contained"
             
