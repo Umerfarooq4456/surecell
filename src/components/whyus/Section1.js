@@ -47,6 +47,9 @@ return(
         </div>    
         <div className="right">
         <img src={img1}  />
+        {/* <div className="line1"></div>
+        <div className="line1"></div> */}
+        
         </div>
 
     </div>

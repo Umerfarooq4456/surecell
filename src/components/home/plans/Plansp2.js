@@ -57,6 +57,9 @@ const Plansp2 = () => {
         <div className="main-imgdiv">
           <div className="img-div">
             <img  className="Group271" src={Group271} />
+            <div className="line1"></div>
+            <div className="line2"></div>
+            <div className="line3"></div>
           </div>
            
            <div className="need-leftdiv">

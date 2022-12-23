@@ -223,7 +223,7 @@ const Plans = () => {
                 position: "absolute",
                 marginTop: "122px",
                 height: "2.9px",
-                marginLeft: "137px",
+                marginLeft: "71px",
               }}
               src={Group86}
             />

@@ -46,7 +46,7 @@
 .form-heading {
   display: grid;
   align-items: center;
-  margin-right: 52px;
+  margin-right: 78px;
   margin-bottom: 83px;
 }
 .support-link {
@@ -176,10 +176,10 @@ font: normal normal 800 45px/61px Nunito Sans;
   width: 100%;
   display: flex;
   justify-content: center;
-  max-height: 646px;
+  min-height: 646px;
   background: #F5F7FF;
   overflow: auto;
-  margin-bottom: 13px;
+  padding-bottom: 123px;
 }
 .acordion{
     width: 965px;
@@ -193,10 +193,11 @@ opacity: 1;
     letter-spacing: NaNpx;
     color: #152D79;
     font-size: 42px;
-    background: #f5f5f5;
+    
     opacity: 1;
     margin-top: 68px;
     margin-bottom: 49px;
+    line-height: 58px;
 }
 
 .acd-head{

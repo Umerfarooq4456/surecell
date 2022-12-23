@@ -18,7 +18,7 @@ return(
             <h2 className="two">Choose your plan</h2>
             <p className="three">Bring your own phone (or buy a new one)</p>
         </div>
-        <div><img src={arrow} /></div>
+        <div><img className="arrow2" src={arrow} /></div>
         
        
         <div  className="text">
@@ -26,7 +26,7 @@ return(
             <h2 className="two">Get your SIM</h2>
             <p className="three">You will get it Via express mail (within 3-5 Days)</p>
         </div>
-        <div><img src={arrow} /></div>
+        <div><img className="arrow2"  src={arrow} /></div>
         <div className="text">
             <h1 className="one">3</h1>
             <h2 className="two">Activate your device</h2>

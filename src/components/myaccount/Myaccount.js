@@ -92,7 +92,7 @@ const Myaccount = () => {
 
 
       <div className="acd-head">
-            <h1 className="acd-text">Simple Answers to Frequently Asked Questions</h1>
+            <h1 className="acd-text">Simple Answers to Frequently <br/> Asked Questions</h1>
         </div>
 
       <div className="acordion-div">
