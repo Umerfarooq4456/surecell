@@ -74,8 +74,12 @@ const Myaccount = () => {
               <input className="input1" type="name" placeholder="Name" />
               <input className="input2" type="email" placeholder="Email" />
               <textarea className="input3" placeholder="Message"></textarea>
+              <div style={{paddingBottom: "18px"}}>
+              
+              <button className="submit-btn"><h3 className="submit-btntext">Submit</h3></button>
+              </div>
             </form>
-            <button className="submit-btn"><h3 className="submit-btntext">Submit</h3></button>
+        
           </div>
         </div>
       </div>
