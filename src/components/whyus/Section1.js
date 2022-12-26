@@ -18,8 +18,10 @@ return(
                 <p className="myp1">Inflation has affected every aspect of the economy – except ours.</p>
                 <p className="myp2">We still offer unlimited talk, text and data plans at a price that’s way lower than our competitors. We have no upper-class offices to maintain and no sales teams to manage. We bring the savings directly to you.</p>
             </div>
+          
 
             </div>
+            <div className="line"></div>
 
              <div className="benefit">
             <div className="image">
@@ -31,7 +33,7 @@ return(
             </div>
 
             </div>
-
+   <div className="line2"></div>
              <div className="benefit">
             <div className="image">
             <img src={img3} /></div>

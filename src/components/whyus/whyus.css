@@ -1,4 +1,21 @@
-
+.maindiv .line {
+    width: 140%;
+    border-bottom: 1px solid #a6bcf5;
+    z-index: 98;
+    color: #18317b;
+    top: 301px;
+    left: 190px;
+    position: absolute;
+  }
+  .maindiv  .line2 {
+    width: 140%;
+    border-bottom: 1px solid #a6bcf5;
+    z-index: 98;
+    color: #18317b;
+    left: 190px;
+    position: absolute;
+    top: 626px;
+  }
 
 .whyus{
     background-color: #fff;
@@ -15,6 +32,10 @@
 .maindiv .left,.maindiv .right{
 
     width: 50%;
+
+}
+.maindiv .left{
+    position: relative;
 }
 
 .right{
@@ -29,8 +50,10 @@
 .right img{
 
     width: 585px;
-
+    z-index: 100;
 }
+
+
 
 .benefit{
 
@@ -41,8 +64,8 @@
 }
 
 .benefit img{
-    height: 152px;
-    width: 152px !important;
+    height: 131px;
+    width: 132px !important;
 }
 
 .info{
@@ -323,8 +346,9 @@ gap: 21px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding:0px 45px;
-    
+    padding: 0px 63px;
+    padding-bottom: 55px;
+    padding-top: 48px;
 }
 .section5 dev{
 
@@ -337,14 +361,17 @@ border-radius: 5px;
 }
 
 .right5 p{
-    font: normal normal 600 20px/30px Nunito Sans;
+    font: normal normal 600 25px/33px Nunito Sans;
+    text-align: center;
 }
 
 
 .section6{
     display: flex;
     padding: 3% 17%;
+    column-gap: 42px;
 }
+
 .section6 .left6{
     flex-basis: 45%;
     display: flex;
@@ -362,24 +389,25 @@ border-radius: 5px;
 
 .right6 p{
 
+    white-space: nowrap;
     text-align: left;
-    font: normal normal bold 45px/55px Nunito Sans;
+    font: normal normal bold 40px/54px Nunito Sans;
     letter-spacing: 0px;
     color: #152D79;
     text-transform: capitalize;
 }
 
 .right6 button{
-    font: normal normal bold 20px/35px Nunito Sans;
-letter-spacing: 0px;
-color: #FCFCFC;
-text-transform: capitalize;
-background: #152D79 0% 0% no-repeat padding-box;
-box-shadow: 0px 3px 6px #00000029;
-border-radius: 34px;
-opacity: 1;
-border: none;
-padding:17px 55px;
+    font: normal normal bold 19px/31px Nunito Sans;
+    letter-spacing: 0px;
+    color: #FCFCFC;
+    text-transform: capitalize;
+    background: #152D79 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 34px;
+    opacity: 1;
+    border: none;
+    padding: 15px 49px;
 }
 
 .whyus img{
@@ -398,8 +426,13 @@ padding:17px 55px;
     right: 509px;
   
 }
-
-
+.ppa{
+    position: relative;
+}
+.img299{
+    position: absolute;
+    margin-left: 326px;
+}
 @media (max-width: 1900px){
    
  
@@ -421,6 +454,12 @@ padding:17px 55px;
         align-items: center;
     }
 
+    .maindiv .line{
+        display: none;
+    }
+    .maindiv .line2{
+        display: none;
+    }
 
   }
 
@@ -484,6 +523,9 @@ padding:17px 55px;
 
 @media (max-width: 800px){
 
+    .img299{
+        display: none;
+    }
     .section2why h2{
 
         width: 70vw;
@@ -540,7 +582,9 @@ padding:17px 55px;
 
         flex-direction: column;
     }
-
+.joanna{
+    display: none;
+}
     .section4why .left {
 
         width: 100% !important;
@@ -584,7 +628,14 @@ padding:17px 55px;
         row-gap: 30px;
         margin-bottom: 44px;
     }
-    
+    .section6 .right6 {
+        flex-basis: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 50px;
+    }
 }
 
 @media (max-width: 480px) {

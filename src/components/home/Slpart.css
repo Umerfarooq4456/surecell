@@ -14,6 +14,7 @@
   justify-content: center;
     padding:70px 0px;
   column-gap: 100px;
+  padding-right: 116px;
 }
 
 .talk-text1,
@@ -178,6 +179,7 @@ box-shadow: 0px 3px 6px #00000029;
 border-radius: 34px;
 width: 250px;
 height: 60px;
+border: none;
 font: normal normal bold 20px/35px Nunito Sans;
 letter-spacing: 0px;
 color: #FCFCFC;
@@ -283,6 +285,7 @@ text-transform: capitalize;
   width: 100% !important;
   display: flex;
   justify-content: center;
+  padding-right: 116px;
   
 }
 .slpart{
@@ -487,4 +490,47 @@ text-transform: capitalize;
   }
 
 
+}
+
+@media only screen and (max-width: 1300px) {
+  
+ .img260{
+  transform: scale(0.8);
+ }
+.upperdiv{
+ transform: scale(0.8);
+ row-gap: 10px;
+}
+.highspeed2{
+  column-gap: 43px;
+    padding-top: 36px;
+    padding-left: 45px;
+}
+.upperdiv h1 {
+    text-align: left;
+    font: normal normal 800 39px/45px Nunito Sans;
+    letter-spacing: 0px;
+    color: #152D79;
+}
+.img261{
+  transform: scale(0.8);
+}
+.unlimiteddiv2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 35px;
+  text-align: center;
+  align-items: center;
+  transform: scale(0.8);
+  padding-left: 41px;
+}
+.highspeed3 {
+  background: #F5F7FF 0% 0% no-repeat padding-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 26px;
+  padding-top: 7px;
+  padding-bottom: 62px;
+}
 }

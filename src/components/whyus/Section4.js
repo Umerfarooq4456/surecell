@@ -21,7 +21,7 @@ return(
 <div className="section4why">
     <div className="left">
         <img src={img1} />
-        <p>Grandma Joanne’s request</p>
+        <p className="joanna">Grandma Joanne’s request</p>
         <img src={img3}  className="arrow"/>
     </div>
     <div className="right">

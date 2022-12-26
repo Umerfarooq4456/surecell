@@ -115,8 +115,7 @@ const Myaccount = () => {
           </p>
         </AccordionDetails>
       </Accordion>
-      <br/>
-      <Accordion onClick={handleClick2}>
+      <Accordion onClick={handleClick2} style={{marginTop:" 9px"}}>
         <AccordionSummary
           expandIcon={click2 ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
@@ -130,8 +129,7 @@ const Myaccount = () => {
           </p>
         </AccordionDetails>
       </Accordion>
-      <br/>
-      <Accordion onClick={handleClick3}>
+      <Accordion onClick={handleClick3} style={{marginTop:" 9px"}}>
         <AccordionSummary
           expandIcon={click3 ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
@@ -145,8 +143,7 @@ const Myaccount = () => {
           </p>
         </AccordionDetails>
       </Accordion>
-      <br/>
-      <Accordion onClick={handleClick4}>
+      <Accordion onClick={handleClick4} style={{marginTop:" 9px"}}>
         <AccordionSummary
           expandIcon={click4 ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
@@ -160,8 +157,7 @@ const Myaccount = () => {
           </p>
         </AccordionDetails>
       </Accordion>
-      <br/>
-      <Accordion onClick={handleClick5}>
+      <Accordion onClick={handleClick5} style={{marginTop:" 9px"}}>
         <AccordionSummary
           expandIcon={click5 ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
@@ -175,8 +171,7 @@ const Myaccount = () => {
           </p>
         </AccordionDetails>
       </Accordion>
-      <br/>
-      <Accordion onClick={handleClick6}>
+      <Accordion onClick={handleClick6} style={{marginTop:" 9px"}}>
         <AccordionSummary
           expandIcon={click6 ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
@@ -190,8 +185,7 @@ const Myaccount = () => {
           </p>
         </AccordionDetails>
       </Accordion>
-      <br/>
-      <Accordion onClick={handleClick7}>
+      <Accordion onClick={handleClick7} style={{marginTop:" 9px"}}>
         <AccordionSummary
           expandIcon={click7 ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
@@ -205,8 +199,7 @@ const Myaccount = () => {
           </p>
         </AccordionDetails>
       </Accordion>
-      <br/>
-      <Accordion onClick={handleClick8}>
+      <Accordion onClick={handleClick8} style={{marginTop:" 9px"}}>
         <AccordionSummary
           expandIcon={click8 ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
@@ -220,8 +213,7 @@ const Myaccount = () => {
           </p>
         </AccordionDetails>
       </Accordion>
-      <br/>
-      <Accordion onClick={handleClick9}>
+      <Accordion onClick={handleClick9} style={{marginTop:" 9px"}}>
         <AccordionSummary
           expandIcon={click9 ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
@@ -235,8 +227,7 @@ const Myaccount = () => {
           </p>
         </AccordionDetails>
       </Accordion>
-      <br/>
-      <Accordion onClick={handleClick10}>
+      <Accordion onClick={handleClick10} style={{marginTop:" 9px"}}>
         <AccordionSummary
           expandIcon={click10 ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
@@ -250,8 +241,7 @@ const Myaccount = () => {
           </p>
         </AccordionDetails>
       </Accordion>
-      <br/>
-      <Accordion onClick={handleClick11}>
+      <Accordion onClick={handleClick11} style={{marginTop:" 9px"}}>
         <AccordionSummary
           expandIcon={click11 ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"
@@ -265,8 +255,7 @@ const Myaccount = () => {
           </p>
         </AccordionDetails>
       </Accordion>
-      <br/>
-      <Accordion onClick={handleClick12}>
+      <Accordion onClick={handleClick12} style={{marginTop:" 9px"}}>
         <AccordionSummary
           expandIcon={click12 ? <RemoveCircleOutlineIcon  style={{color: "orange"}} /> : <AddCircleOutlineOutlinedIcon  style={{color: "orange"}}/> }
           aria-controls="panel1a-content"

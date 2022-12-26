@@ -83,7 +83,7 @@ const Slpart = () => {
       </div> */}
 
       <div className="highspeed2">
-        <div>
+        <div className="img260">
           <img  src={Group260} />
         </div>
 
@@ -168,7 +168,7 @@ const Slpart = () => {
         <button>Join Us Today</button>
         </div>
 
-        <div>
+        <div className="img261">
         <img  src={Group261} />
         </div>
 
