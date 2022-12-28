@@ -433,10 +433,8 @@ border-radius: 5px;
     position: absolute;
     margin-left: 326px;
 }
-@media (max-width: 1900px){
-   
- 
 
+@media (max-width: 1900px){
   .left{
     width:100% !important;
     transform: scale(0.8);
@@ -462,8 +460,6 @@ border-radius: 5px;
     }
 
   }
-
-
 
 
   @media (max-width: 1049px){
@@ -515,14 +511,26 @@ border-radius: 5px;
         row-gap: 50px;
     }
 
-  
-
 }
 
+@media (max-width: 1100px){
+    .section4why {
+        transform: scale(0.8);
+        
+    margin-top: -76px;
+    margin-bottom: -28px;
 
+    
+    }
+}
 
 @media (max-width: 800px){
-
+    .section4why {
+        transform: scale(0.6);
+        margin-top: -98px;
+        margin-bottom: -60px;
+    
+    }
     .img299{
         display: none;
     }
@@ -576,49 +584,6 @@ border-radius: 5px;
 }
 
 
-
-@media (max-width: 1600px){
-    .section4why{
-
-        flex-direction: column;
-    }
-.joanna{
-    display: none;
-}
-    .section4why .left {
-
-        width: 100% !important;
-        align-items: center;
-        
-    }
-    .section4why .left img{
-        transform:translateX(0);
-    }
-    .section4why .left p{
-
-        transform:translateX(0) !important;
-    }
-    .arrow{
-        display: none;
-    }
-    .section4why .right {
-        width: 100% !important;
-        align-items: center;
-    }
-    .bottomdiv p {
-        width: 50vw !important;
-
-    }
-    .section4why .right p {
-
-        width: 80vw;
-    }
-    .section4why .left img{
-        display: none;
-    }
-}
-
-
 @media (max-width: 1300px){
 
 
@@ -641,5 +606,55 @@ border-radius: 5px;
 @media (max-width: 480px) {
     .section4why .right h2 {
         text-align: center !important;
+    }
+    .section6 .right6 p {
+        text-align: center;
+        font: normal normal bold 22px/36px Nunito Sans;
+        width: 78vw;
+    }
+}
+
+@media (max-width: 700px){
+      .section4why{
+
+        flex-direction: column;
+    }
+    .joanna{
+    display: none;
+}
+    .section4why .left {
+
+        width: 100% !important;
+        align-items: center;
+        
+    }
+    .section4why .left img{
+        transform:translateX(0);
+    }
+    .section4why .left p{
+
+        transform:translateX(0) !important;
+    }
+    .arrow{
+        display: none;
+    }
+    .section4why .right {
+        width: 100% !important;
+        align-items: center;
+    }
+    /* .bottomdiv p {
+        width: 50vw !important;
+
+    } */
+    .section4why .right p {
+        width: 142vw;
+
+    }
+    .section4why .right h2 {
+      text-align: center;
+
+    }
+    .section4why .left img{
+        display: none;
     }
 }
