@@ -17,19 +17,19 @@ const Plansp2 = () => {
       <div className="P2-main">
         <div className="icons-div">
           <h3 className="no1">No</h3>
-          <p className="po1">No Long-Term Contracts</p>
+          <p className="po1">Long-Term Contracts</p>
         </div>
         <div className="icons-div">
           <h3 className="no1">No</h3>
-          <p className="po1">No Long-Term Contracts</p>
+          <p className="po1">Rate Increases</p>
+        </div>
+        <div className="icons-div">
+          <h3 className="no1">NO</h3>
+          <p className="po1">Data Overages</p>
         </div>
         <div className="icons-div">
           <h3 className="no1">No</h3>
-          <p className="po1">No Long-Term Contracts</p>
-        </div>
-        <div className="icons-div">
-          <h3 className="no1">No</h3>
-          <p className="po1">No Long-Term Contracts</p>
+          <p className="po1">Cancellation Fees</p>
         </div>
       </div>
 
@@ -57,6 +57,9 @@ const Plansp2 = () => {
         <div className="main-imgdiv">
           <div className="img-div">
             <img  className="Group271" src={Group271} />
+            <div className="line1"></div>
+            <div className="line2"></div>
+            <div className="line3"></div>
           </div>
            
            <div className="need-leftdiv">

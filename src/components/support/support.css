@@ -12,7 +12,7 @@
   display: flex;
   justify-content: center;
   background-color: #f5f7ff;
-  padding-top: 11%;
+  padding-top: 10%;
   padding-bottom: 3%;
   position: relative;
 }
@@ -228,7 +228,7 @@
   font: normal normal bold 19px/34px Nunito Sans;
 }
 .font-para {
-  font: normal normal 500 16px/17px Nunito Sans;
+  font: normal normal 500 18px/20px Nunito Sans;
 }
 
 .basis-head {
@@ -262,6 +262,12 @@
   letter-spacing: 0px;
   color: #405ebf;
   opacity: 1;
+  height: 52px;
+}
+
+.basis img{
+  height: 50px;
+  object-fit: scale-down;
 }
 .section3-support {
     min-height: 515px;
@@ -309,7 +315,7 @@
 }
 .head-sec4{
     text-align: center;
-    font: normal normal bold 13px/20px Nunito Sans;
+    font: normal normal bold 14px/34px Nunito Sans;
     letter-spacing: 0px;
     color: #152D79;
     opacity: 1;
@@ -429,6 +435,23 @@
 }
 
 @media (max-width: 1116px) {
+  .dial img {
+    width: 28%;
+    z-index: 99;
+}
+.head-sec4 {
+  text-align: center;
+  font: normal normal bold 14px/40px Nunito Sans;
+  letter-spacing: 0px;
+  color: #152D79;
+  opacity: 1;
+}
+.line.pos3 {
+  margin-top: 22.5%;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 500px;
+}
   .font-para {
     font: normal normal 500 12px/12px Nunito Sans ;
 }

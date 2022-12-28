@@ -24,7 +24,7 @@ function Footer() {
           <div className="footer-link-wrapper">
             <div className="footer-link-items">
               <h2 className="hq1">Plans</h2>
-              <h3 className="hq2">Talk. Text, Data</h3>
+              <h3 className="hq2">Talk, Text, Data</h3>
               <h3 className="hq2">TTD + Alert</h3>
             </div>
             <div className="footer-link-items">

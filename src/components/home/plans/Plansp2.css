@@ -7,7 +7,6 @@
   justify-content: center;
 }
 
-
 .no1 {
   text-align: left;
   font: normal normal bold 19px/25px Nunito Sans;
@@ -94,6 +93,40 @@
 .img-div {
   position: relative;
 }
+
+.main-imgdiv .line1 {
+  position: absolute;
+  width: 510px;
+  height: 2px;
+  border-top: 1px solid #a6bcf5;
+  top: 71px;
+  transform: translateX(-50%);
+  left: 50%;
+  z-index: -15;
+}
+
+.main-imgdiv .line2 {
+  position: absolute;
+  width: 510px;
+  height: 2px;
+  border-top: 1px solid #a6bcf5;
+  top: 166px;
+  transform: translateX(-50%);
+  left: 50%;
+  z-index: -15;
+}
+
+.main-imgdiv .line3 {
+  position: absolute;
+  width: 510px;
+  height: 2px;
+  border-top: 1px solid #a6bcf5;
+  top: 261px;
+  transform: translateX(-50%);
+  left: 50%;
+  z-index: -15;
+}
+
 .Group271 {
   width: 340px;
   height: 335px;
@@ -104,14 +137,14 @@
 
 .nd-para {
   text-align: right;
-  font: normal normal 500 13px/15px px Nunito Sans;
+  font: normal normal 500 13px/15px Nunito Sans;
   letter-spacing: 0px;
   color: #152d79;
   opacity: 1;
 }
 .nd-para1 {
   text-align: left;
-  font: normal normal 500 13px/15px px Nunito Sans;
+  font: normal normal 500 13px/15px Nunito Sans;
   letter-spacing: 0px;
   color: #152d79;
   opacity: 1;
@@ -211,162 +244,165 @@
   left: 303px;
   width: 179px;
 }
-.need-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 54px;
+.need-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 54px;
 }
 
 .nd-btn {
-    width: 325px;
-    height: 55px;
-    background: #ee8b3f 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 6px #00000029;
-    border-radius: 34px;
+  width: 325px;
+  height: 55px;
+  background: #ee8b3f 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 34px;
+  opacity: 1;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.learn-more {
+  text-align: center;
+  text-decoration: underline;
+  font: normal normal bold 14px/24px Nunito Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-right: 7px;
+}
+
+.btn-pa {
+  text-align: center;
+  font: normal normal bold 14px/27px Nunito Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 480px) {
+  .main-imgdiv .line3,
+  .main-imgdiv .line2,
+  .main-imgdiv .line1 {
+    display: none;
+  }
+  .Group271 {
+    width: 340px !important;
+    height: 335px !important;
+  }
+  .head-p {
+    text-align: center;
+    font: normal normal 800 27px/11px Nunito Sans;
+    letter-spacing: 0px;
+    color: #152d79;
+    display: contents;
+  }
+  .iicon {
+    margin-right: 0px !important;
+  }
+  .service-p {
+    text-align: center;
+    font: normal normal 600 14px/58px Nunito Sans;
+    letter-spacing: 0px;
+    color: #152d79;
+  }
+
+  .support-tetx {
+    width: 100%;
+    height: 224px;
+    background: #f5f7ff 0% 0% no-repeat padding-box;
     opacity: 1;
-    border: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .plans-main {
+    background: #fcfcfc 0% 0% no-repeat padding-box;
+    opacity: 1;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .head-h1 {
+    text-align: center;
+    font: normal normal 800 24px/126px Nunito Sans;
+    letter-spacing: 0px;
+    color: #152d79;
+    opacity: 1;
+  }
+
+  .pc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -122px !important;
+    margin-bottom: -76px !important;
+  }
+
+  .parice-card2 {
+    width: 295px;
+    min-height: 337px;
+    display: flex;
+    flex-direction: column;
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-
-.learn-more{
-    text-align: center;
-    text-decoration: underline;
-    font: normal normal bold 14px/24px Nunito Sans;
+    margin-bottom: 28px;
+    position: relative;
+    background: #f5f7ff 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    border: 5px solid #405ebf;
+  }
+  .whatsinclude {
+    font: normal normal bold 20px/32px Nunito Sans;
     letter-spacing: 0px;
-    color: #FFFFFF;
-    margin-right: 7px;
-}
+    color: #152d79;
+    margin-right: 68px;
+    opacity: 1;
+    margin-top: 9px;
+  }
 
-.btn-pa{
-    text-align: center;
-    font: normal normal bold 14px/27px Nunito Sans;
+  .l11 {
+    width: 252px;
+    margin-left: 5%;
+    font: normal normal bold 15px/22px Nunito Sans;
     letter-spacing: 0px;
-    color: #FFFFFF;
-}
+    color: #152d79;
+    text-transform: capitalize;
+    opacity: 1;
+  }
 
-@media only screen and (max-width: 480px) { 
+  .sp-text {
+    font: bold 9px/17px "Nunito Sans" !important;
+    color: rgb(21, 45, 121);
+  }
 
-    .Group271 {
-        width: 340px !important;
-        height: 335px !important;
-    }
-    .head-p {
-        text-align: center;
-        font: normal normal 800 27px/11px Nunito Sans;
-        letter-spacing: 0px;
-        color: #152d79;
-        display: contents;
-    }
-    .iicon{
-      margin-right: 0px !important;
-    }
-    .service-p {
-        text-align: center;
-        font: normal normal 600 14px/58px Nunito Sans;
-        letter-spacing: 0px;
-        color: #152d79;
-    }
-
-    .support-tetx {
-        width: 100%;
-        height: 224px;
-        background: #f5f7ff 0% 0% no-repeat padding-box;
-        opacity: 1;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .plans-main {
-        background: #fcfcfc 0% 0% no-repeat padding-box;
-        opacity: 1;
-        flex-direction: column;
-        display: flex;
-    }
-
-    .head-h1 {
-        text-align: center;
-        font: normal normal 800 24px/126px Nunito Sans;
-        letter-spacing: 0px;
-        color: #152d79;
-        opacity: 1;
-    }
-
-    .pc {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-top: -122px !important;
-        margin-bottom: -76px !important;
-
-    }
-
-    .parice-card2 {
-        width: 295px;
-        min-height: 337px;
-        display: flex;
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-        margin-bottom: 28px;
-        position: relative;
-        background: #f5f7ff 0% 0% no-repeat padding-box;
-        border-radius: 10px;
-        opacity: 1;
-        border: 5px solid #405ebf;
-    }
-    .whatsinclude {
-        font: normal normal bold 20px/32px Nunito Sans;
-        letter-spacing: 0px;
-        color: #152d79;
-        margin-right: 68px;
-        opacity: 1;
-        margin-top: 9px;
-    }
-
-    .l11 {
-        width: 252px;
-        margin-left: 5%;
-        font: normal normal bold 15px/22px Nunito Sans;
-        letter-spacing: 0px;
-        color: #152d79;
-        text-transform: capitalize;
-        opacity: 1;
-    }
-
-    .sp-text{
-        font: bold 9px/17px "Nunito Sans" !important;
-        color: rgb(21, 45, 121);
-    }
-
-.pricc-btnimg{
+  .pricc-btnimg {
     width: 53% !important;
     margin-left: -18px !important;
     margin-right: -57px !important;
-}
-.no1 {
+  }
+  .no1 {
     font: normal normal bold 14px/25px Nunito Sans;
     letter-spacing: 0px;
     color: #152d79;
     text-align: center;
     text-transform: capitalize;
-}
+  }
 
-.po1 {
+  .po1 {
     /* text-align: left; */
     font: normal normal 600 11px/14px Nunito Sans;
     letter-spacing: 0px;
     color: #152d79;
     text-transform: capitalize;
     text-align: center;
-}
-.P2-main {
+  }
+  .P2-main {
     height: 202px;
     display: flex;
     background: #f5f7ff 0% 0% no-repeat padding-box;
@@ -374,81 +410,80 @@
     opacity: 1;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.icons-div {
-    margin-right: 0px; 
+  .icons-div {
+    margin-right: 0px;
     margin-top: 0px;
-}
+  }
 
-.po2 {
+  .po2 {
     text-align: center;
     font: normal normal bold 13px/73px Nunito Sans;
     letter-spacing: 0px;
     color: #405ebf;
     opacity: 1;
-}
-.ho3 {
+  }
+  .ho3 {
     text-align: center;
     font: normal normal 800 19px/24px Nunito Sans;
     letter-spacing: 0px;
     color: #152d79;
     text-transform: capitalize;
     opacity: 1;
-}
+  }
 
-.po3 {
-
+  .po3 {
     text-align: center;
     font: normal normal 600 9px/22px Nunito Sans;
     letter-spacing: 0px;
     color: #152d79;
     padding: 15px;
     opacity: 1;
-}
-.para-div {
+  }
+  .para-div {
     background: #f5f7ff 0% 0% no-repeat padding-box;
     border-radius: 10px 0px 0px 0px;
     opacity: 1;
     height: 213px;
-}
-.need-p {
+  }
+  .need-p {
     text-align: center;
     font: normal normal bold 18px/28px Nunito Sans;
     letter-spacing: 0px;
     color: #405ebf;
     opacity: 1;
-}
-.need-h {
+  }
+  .need-h {
     font: normal normal 800 27px/52px Nunito Sans;
     color: #152d79;
     opacity: 1;
-}
-.Group271 {
+  }
+  .Group271 {
     width: 209px !important;
     height: 211px !important;
-}
-.Group5 {
-  display: none;
-}
-.Group6 {
-  display: none;
-}
-.Group4 {
-  display: none;
-}
-.Group1 {
-  display: none;
-}
+  }
+  .Group5 {
+    display: none;
+  }
+  .Group6 {
+    display: none;
+  }
+  .Group4 {
+    display: none;
+  }
+  .Group1 {
+    display: none;
+  }
 
-.Group2{
-  display: none;
-}
+  .Group2 {
+    display: none;
+  }
 
-.Group3 {
-  display: none;
-}
-.nd-btn {
+  .Group3 {
+    display: none;
+  }
+  .nd-btn {
     width: 198px;
     height: 45px;
     background: #ee8b3f 0% 0% no-repeat padding-box;
@@ -459,46 +494,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.learn-more {
+  }
+  .learn-more {
     text-align: center;
     text-decoration: underline;
     font: normal normal bold 9px/7px Nunito Sans;
     letter-spacing: 0px;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-right: 7px;
-}
-.btn-pa {
+  }
+  .btn-pa {
     text-align: center;
     font: normal normal bold 10px/23px Nunito Sans;
     letter-spacing: 0px;
-    color: #FFFFFF;
-}
-.main-imgdiv {
+    color: #ffffff;
+  }
+  .main-imgdiv {
     display: flex;
     justify-content: center;
     margin-bottom: 34px;
+  }
 }
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
