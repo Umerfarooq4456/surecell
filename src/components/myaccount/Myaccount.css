@@ -8,8 +8,8 @@
   height: 157px;
 }
 .css-15v22id-MuiAccordionDetails-root {
-  padding: 8px 17px 4px !important;
-  margin-top: -16px !important;
+  padding: 8px 17px 4px;
+  margin-top: -16px ;
 }
 .css-yw020d-MuiAccordionSummary-expandIconWrapper {
   display: flex;
@@ -17,10 +17,10 @@
   margin-top: -10px;
 }
 .css-o4b71y-MuiAccordionSummary-content.Mui-expanded {
-  margin: 9px 0 !important;
+  margin: 9px 0 ;
 }
 .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
-  min-height: 0px !important;
+  min-height: 0px;
 }
 .accout-heading {
   text-align: center;
@@ -384,10 +384,7 @@ opacity: 1;
  }
 
  @media only screen and (max-width: 1250px) {
-  .css-15v22id-MuiAccordionDetails-root {
-    padding: 8px 17px 4px !important;
-    margin-top: -16px !important;
-  }
+ 
   .Group26 {
   position: absolute;
   top: 40px !important;
@@ -470,10 +467,7 @@ opacity: 1;
  
 
 @media (max-width: 930px) {
-  .css-15v22id-MuiAccordionDetails-root {
-    padding: 8px 17px 4px !important;
-    margin-top: -16px !important;
-  }
+
   .Group26 {
     display: none;
   }
